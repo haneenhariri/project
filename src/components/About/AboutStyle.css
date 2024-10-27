@@ -1,0 +1,100 @@
+.aboutCont{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   background-color:#282828 ;
+    color:#FFFFFF ;text-align: center;
+    padding: 2rem;
+}
+.titA{
+ font-weight: 700;
+ font-size: 30px; 
+ line-height:6.57px ; 
+ padding: 1.1rem 0; 
+}
+.aboutS{
+    width: 85%;
+    margin: 0 auto;
+}
+.descAbout{
+    font-size:24px;
+    line-height: 31.2px;
+    font-weight: 500;
+    padding: 1.1rem 0; 
+}
+.infoS{
+    font-size:24px;
+    line-height: 31.2px;
+    font-weight: 500;
+    padding: 0.5rem 0; 
+}
+.anewArchived2
+{
+    display: none;
+}
+.subAbo{
+    font-size: 24px;
+    font-weight: 500;
+    line-height:29.26px ;
+    text-align: center;
+    padding: 1.1rem 0; 
+}
+.cardsA{
+    display: flex;
+    justify-content:  space-evenly;
+   flex-wrap: wrap;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+.itemAbout{  
+    margin-top: 3%;
+   width: 267px;
+   height: 176px;
+   padding-top: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+    color: #ff8500;
+    background-color: #ffffff;
+    font-size: 41px;
+    font-weight: 700;
+    text-align: center;
+}
+.numA{
+    /* font-size: 67.5px; */
+  font-weight: 700;
+  text-align: center;
+
+}
+.typeAb{
+    font: var(--my-font-family);
+    text-align: center;
+    line-height: 50.6px;
+}
+@media (max-width:600px)
+{
+    .titA , .subAbo{
+        font-size: 20px; 
+        padding: 0;
+        font-weight: 600;
+       }
+       .aboutCont
+       {
+        padding:30px 10px;
+       }
+       .descAbout , .infoS
+       {
+        font-size: 14px;
+        font-weight: 400;
+       }
+       .numA{
+        font-size: 40px;
+    }
+    .anewArchived1
+    {
+        display: none;
+    }
+    .anewArchived2
+    {
+        display: block;
+    }
+}

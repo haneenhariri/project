@@ -1,0 +1,359 @@
+.XA-Hero
+{
+  width: 100%;
+  height: 76vh;
+  display: flex;
+  justify-content: space-between;
+  z-index: -11;
+  padding-top: 52px;
+}
+.XA-Hero1
+{
+  width: 600px;
+}
+.XA-Hero1 .Herotitle
+{
+  padding: 112px 0 0 98px;
+  transition: .7s;
+}
+.XA-Hero1 .Herotitle h2
+{
+  color: #FF8500;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 45px;
+}
+.XA-Hero1 .Herotitle p
+{
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+}
+.alpraragraph2
+{
+  display: none;
+}
+.XA-Hero1 .Herotitle .HeroLogin button
+{
+  padding: 12px 22px;
+  border-radius: 14px;
+  background-color: #FF8500;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  margin-top: 76px;
+}
+.XA-Hero1 .Herotitle .HeroLogin a
+{
+  color: #282828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 53px;
+  z-index: 20 !important;
+  text-decoration: underline;
+}
+.XA-Hero1 .Hero-numberAnimat
+{
+  margin-top: 59px;
+  width: 491px;
+  height: 98px;
+  border-radius: 0px 16px 16px 0px;
+  background: #FFF;
+  box-shadow: 10px 7px 30px 0px rgba(0, 0, 0, 0.10);
+  padding-left: 102px;
+  padding-right: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: .7s;
+}
+.XA-Hero1 .Hero-numberAnimat .CHAIELD
+{
+  width: 104px;
+  height: 46px;
+  color: #282828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.XA-Hero2
+{
+  position: relative;
+  width: 600px;
+  height: 100%;
+}
+.XA-Herobackground
+{
+  transition: .7s;
+  position: absolute;
+  width: 683px;
+  height: 100%;
+  background-image:url(./../../assets/image/Trainers123.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 100px;
+  right: -50px;
+  z-index: -11;
+}
+.XA-Heroback2-orang
+{
+  transition: .7s;
+  position: absolute;
+  width: 605px;
+  height: 650px;
+  background-image: url(./../../assets//image/backHero.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 0;
+  top: 0;
+  z-index: -12;
+}
+.XA-Heroback3-orang
+{
+  transition: .7s;
+  position: absolute;
+  background-image: url(./../../assets//image/Head.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 185px;
+  height: 135px;
+  right: 492px;
+  top: 150px;
+  z-index: -12;
+}
+
+@media (max-width:1310px)
+{
+  .XA-Hero1
+  {
+    width: 450px;
+  }
+  .XA-Hero2
+  {
+    width: 530px;
+  }
+  .XA-Hero1 .Herotitle
+  {
+    padding: 112px 0 0 40px;
+  }
+  .XA-Hero1 .Herotitle h2
+  {
+    font-size: 24px;
+  }
+  .XA-Hero1 .Herotitle p
+  {
+    font-size: 15px;
+  }
+  .XA-Hero1 .Herotitle .HeroLogin a
+  {
+    font-size: 15px;
+  }
+  .XA-Hero1 .Herotitle .HeroLogin button
+  {
+    font-size: 15px;
+  }
+  .XA-Hero1 .Hero-numberAnimat
+  {
+    width: 400px;
+    padding-left: 40px;
+  }
+  .XA-Hero1 .Hero-numberAnimat .CHAIELD
+  {
+    font-size: 15px;
+  }
+  .XA-Herobackground
+  {
+    top: 150px;
+    width: 550px;
+  }
+  .XA-Heroback2-orang
+  {
+    width: 450px;
+  }
+  .XA-Heroback3-orang
+  {
+    width: 130px;
+    top: 195px;
+    right: 414px;
+  }
+}
+@media (max-width:992px)
+{
+  .XA-Hero
+  {
+    height: 115vh;
+  }
+  .XA-Hero1 .Herotitle
+  {
+    padding: 80px 0 0 40px;
+  }
+  .XA-Hero1 .Herotitle .HeroLogin
+  {
+    margin-top: 400px;
+  }
+  .XA-Hero1 .Hero-numberAnimat
+  {
+    margin-top: 30px;
+  }
+  .XA-Herobackground
+  {
+    top: 300px;
+    width: 450px;
+    
+  }
+  .XA-Heroback2-orang
+  {
+    top: 255px;
+    width: 350px;
+    
+  }
+  .XA-Heroback3-orang
+  {
+    width: 90px;
+    top: 340px;
+    right: 340px;
+  }
+}
+@media (max-width:600px)
+{
+  .XA-Hero
+  {
+    height: 105vh;
+  }
+  .Herotitle
+  {
+    width: 329px;
+    padding-left: 20px !important;
+  }
+  .XA-Hero1 .Herotitle h2
+  {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .XA-Hero1 .Herotitle p
+  {
+    font-size: 14px;
+  }
+  .XA-Hero1 .Herotitle .HeroLogin a
+  {
+    font-size: 13px;
+  }
+  .XA-Hero1 .Herotitle .HeroLogin button
+  {
+    font-size: 13px;
+  }
+  .XA-Hero1 .Herotitle .HeroLogin
+  {
+    top: 180px;
+    width: max-content ;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+  }
+  .XA-Hero1 .Hero-numberAnimat
+  {
+    padding: 0;
+    width: 329px ;
+    position: absolute;
+    border-radius: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 720px;
+  }
+  .XA-Hero1 .Hero-numberAnimat .CHAIELD
+  {
+    font-size: 12px;
+  }
+  .XA-Herobackground
+  {
+    top: 320px;
+    width: 330px;
+  }
+  .XA-Heroback2-orang
+  {
+    top: 255px;
+    width: 320px;
+  }
+  .XA-Heroback3-orang
+  {
+    width: 84px;
+    top: 350px;
+    right: 245px;
+  }
+  .alpraragraph2
+  {
+    display: block;
+  }
+  .alpraragraph1
+  {
+    display: none;
+  }
+}
+@media (max-width:370px)
+{
+  .XA-Herobackground
+  {
+    top: 320px;
+    width: 300px;
+  }
+  .XA-Heroback2-orang
+  {
+    top: 255px;
+    width: 300px;
+  }
+  .XA-Heroback3-orang
+  {
+    width: 74px;
+    top: 320px;
+    right: 225px;
+  }
+  .XA-Hero1 .Herotitle h2
+  {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .XA-Hero1 .Herotitle p
+  {
+    font-size: 13px;
+    width: 90%;
+  }
+  .XA-Hero1 .Herotitle .HeroLogin 
+  {
+    width: 80%;
+    margin: 400px auto 0 auto;
+  }
+  .XA-Hero1 .Herotitle .HeroLogin a
+  {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .XA-Hero1 .Hero-numberAnimat {
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 720px;
+  }
+  .XA-Hero1 .Herotitle {
+    width: 290px;
+  }
+}

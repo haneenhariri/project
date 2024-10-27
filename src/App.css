@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;0,900;1,600&display=swap');
+@import "bootstrap-icons/font/bootstrap-icons.css";
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Playfair+Display:wght@500;800&display=swap');
+
+:root {
+    /* color general */
+    --color-white: #FFF;
+    --color-black: #282828;
+    --color-secondry: #938C8C;
+
+    /* font general */
+    --my-font-family: 'Montserrat', sans-serif;
+    --font: normal;
+     font-synthesis: none;
+     font-family: 'Montserrat', sans-serif;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif ;
+}
+.Focal-x-Nav
+{
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  background: #FFF;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  z-index: 101230;
+}
+.Focal-x-Nav  .nav-toglle-xa
+{
+  display: none;
+}
+.Focal-x-Nav .logo-side
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Focal-x-Nav .logo-side h1
+{
+  color: #282828;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14.98px;
+  margin-left: 24px;
+  margin-bottom: -10px;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+.Focal-x-Nav .ul-side-nav ul
+{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.Focal-x-Nav .ul-side-nav ul li
+{
+  color: #938C8C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 2px;
+  margin-right: 32px;
+}
+.Focal-x-Nav .ul-side-nav ul .Activlink
+{
+  color: #282828;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+}
+.Focal-x-Nav .ul-side-nav ul .Activlink::before
+{
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 2px;
+  background: #FF8500;
+  bottom: 0;
+}
+.side-Nav
+{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 196px;
+  height: 335px;
+  border-radius: 12px 0px 0px 12px;
+  background: #fff;
+  box-shadow: -6px 6px 15px 0px rgba(0, 0, 0, 0.15);
+  transform: translateX(200px);
+  transition: .7s;
+  z-index: 100;
+}
+.side-NavActiv
+{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 196px;
+  height: 335px;
+  border-radius: 12px 0px 0px 12px;
+  background: #fff;
+  box-shadow: -6px 6px 15px 0px rgba(0, 0, 0, 0.15);
+  transform: translateX(0px);
+  transition: .7s;
+  z-index: 1000;
+}
+.Focal-x-Nav .side-NavActiv .x,.Focal-x-Nav .side-Nav .x
+{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 13px;
+  position: relative;
+}
+.Focal-x-Nav .side-NavActiv .x::before,.Focal-x-Nav .side-Nav .x::before
+{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 182px;
+  height: 0.5px;
+  background: #282828;
+}
+.Focal-x-Nav .side-NavActiv .ul,.Focal-x-Nav .side-Nav .ul
+{
+  height: 285px;
+}
+.Focal-x-Nav .side-NavActiv .ul ul,.Focal-x-Nav .side-Nav .ul ul
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  list-style: none;
+}
+.Focal-x-Nav .side-NavActiv .ul ul li,.Focal-x-Nav .side-Nav .ul ul li
+{
+  color: #282828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 83.2%;
+  padding-bottom: 2px;
+}
+.Focal-x-Nav .side-NavActiv .ul ul .Activlink,.Focal-x-Nav .side-Nav .ul ul .Activlink
+{
+  color: #282828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 83.2%;
+  position: relative;
+}
+.Focal-x-Nav .side-NavActiv .ul ul .Activlink::before,.Focal-x-Nav .side-Nav .ul ul .Activlink::before
+{
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 2px;
+  background: #FF8500;
+  bottom: 0;
+}
+
+.awro-fq-navbar , .awro-fq-navbar2
+{
+  position: relative;
+  cursor: pointer;
+}
+.awro-fq-navbar::after
+{
+  width: 10px;
+  height: 2px;
+  background-color: #8A8A8A;
+  position: absolute;
+  content: "";
+  rotate: -45deg;
+  top: 50%;
+  left: 5px;
+  transform: translate( 0% , -75% );
+  transition: .4s;
+}
+.awro-fq-navbar::before
+{
+  width: 10px;
+  height: 2px;
+  background-color: #8A8A8A;
+  position: absolute;
+  content: "";
+  rotate: 45deg;
+  top: 50%;
+  left: 9px;
+  transform: translate( 0% , -75% );
+  transition: .4s;
+}
+.awro-fq-navbar2::after
+{
+  width: 10px;
+  height: 2px;
+  background-color: #8A8A8A;
+  position: absolute;
+  content: "";
+  rotate: -45deg;
+  top: 50%;
+  left: 14px;
+  transform: translate( 0% , -75% );
+  transition: .4s;
+}
+.awro-fq-navbar2::before
+{
+  width: 10px;
+  height: 2px;
+  background-color: #8A8A8A;
+  position: absolute;
+  content: "";
+  rotate: 45deg;
+  top: 50%;
+  left: 5px;
+  transform: translate( 0% , -75% );
+  transition: .4s;
+}
+.About-list
+{
+  width: 97px;
+  height: 89px;
+  position: absolute;
+  top: 32px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #FFF;
+  box-shadow: 0px 4px 8px 0px #0000002B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: .4s;
+}
+.About-list2
+{
+  width: 97px;
+  height: 89px;
+  position: absolute;
+  top: 32px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #FFF;
+  box-shadow: 0px 4px 8px 0px #0000002B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 0;
+}
+.About-list p
+{
+  margin-bottom: 5px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  text-align: left;
+}
+@media(max-width:1330px)
+{
+  .Focal-x-Nav .ul-side-nav ul li
+  {
+    margin-right: 20px;
+  }
+}
+@media(max-width:1330px)
+{
+  .Focal-x-Nav .ul-side-nav
+  {
+    display: none;
+  }
+  .Focal-x-Nav  .nav-toglle-xa
+  {
+    display: block;
+  }
+}
+@media(max-width:650px)
+{
+  .Focal-x-Nav
+  {
+    padding: 0 15px;
+  }
+  .Focal-x-Nav .logo-side h1
+  {
+    font-size: 12px;
+    margin-left: 12px;
+  }
+  .Focal-x-Nav .logo-side svg
+  {
+    width: 68px;
+    height: 18px;
+  }
+}
+
+.ullll li , ul li 
+{
+  cursor: pointer;
+}

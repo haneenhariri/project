@@ -1,0 +1,264 @@
+.slick-prev:before {
+    content: url(../../assets/Vector4.svg);
+}
+
+.slick-next:before {
+    content: url(../../assets/Vector3.svg);
+}
+
+.slick-prev:before {
+    opacity: .75;
+    color: #282828;
+    -webkit-font-smoothing: antialiased;
+}
+
+.slick-next:before {
+    opacity: .75;
+    color: #282828;
+    -webkit-font-smoothing: antialiased;
+}
+
+.FqQf-slider .slick-next:before {
+    position: absolute;
+    top: 125px;
+    right: -30px;
+}
+
+.FqQf-slider .slick-prev:before {
+    position: absolute;
+    top: 125px;
+    left: -30px;
+}
+.Cup-fq
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+}
+.asdasdasd
+{
+    flex-direction: row-reverse;
+}
+.Cup-fq .right
+{
+    width: 600px;
+    position: relative;
+}
+.Cup-fq .left img:nth-child(2)
+{ 
+    width: 430px;
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    animation: updown 2s ease-in-out 0s infinite normal;
+}
+.asdasdasd .left img:nth-child(2)
+{
+    width: 430px;
+    position: absolute;
+    top: -10px;
+    right: 3%;
+    left: auto;
+    animation: updown 2s ease-in-out 0s infinite normal;
+}
+.Cup-fq .left .Descrip-fqq
+{   
+    position: absolute;
+    top: 30%;
+    left: 31vw;
+}
+.asdasdasd .left .Descrip-fqq
+{   
+    position: absolute;
+    top: 30%;
+    right: 31vw;
+    left: auto;
+}
+.Cup-fq .left .Descrip-fqq img
+{
+    position: absolute;
+    width: 100%;
+    left: -110%;
+    top: 7px;
+    z-index: -10;
+}
+.asdasdasd .left .Descrip-fqq img
+{
+    position: absolute;
+    width: 100%;
+    right: -110%;
+    left: auto;
+    top: 7px;
+    rotate: 180deg;
+    z-index: -10;
+}
+.Cup-fq .left .Descrip-fqq h2
+{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: left;
+}
+@keyframes updown 
+{
+    0%{
+        top: 0;
+    }
+    50%
+    {
+        top: -20px;
+    }
+    100%
+    {
+        top: 0;
+    }
+}
+
+@media (min-width:1366px) {
+    .slick-next:before {
+        position: relative;
+        right: 2.06rem;
+    }
+
+    .slick-prev:before {
+        position: relative;
+        left: 2.06rem;
+    }
+}
+@media (max-width:1366px) {
+    .Cup-fq .left .Descrip-fqq
+    {   
+        left: 40vw;
+    }
+    .asdasdasd .left .Descrip-fqq
+    {   
+        right: 40vw;
+        left: auto;
+    }
+}
+@media (max-width:1200px) {
+    .Cup-fq .left
+    {
+        width: 330px;
+    }
+    .asdasdasd .left
+    {
+        width: 330px;
+        left: 100%;
+        margin-left: calc( 100% - 330px );
+    }
+    .Cup-fq .left img:nth-child(2)
+    {
+        width: 330px;
+    }
+    .Cup-fq
+    {
+        flex-direction: column;
+    }
+    .Cup-fq .right
+    {
+        left: calc(100% - 685px);
+        width: 100%;
+        padding-top: 20px;
+    }
+    .asdasdasd .right
+    {
+        left: 0;
+        padding-top: 20px;
+    }
+    .Cup-fq .left .Descrip-fqq 
+    {
+        top: 200px;
+        left: 410px;
+    }
+    .asdasdasd .left .Descrip-fqq
+    {   
+        top: 200px;
+        right: 410px;
+        left: auto;
+    }
+}
+
+@media (max-width:600px) {
+    .Fluter {
+        width: 150px !important;
+        top: 50px !important;
+    }
+    .Fluter2 {
+        width: 150px !important;
+        height: 300px !important;
+        top: -50px !important;
+        position: relative;
+    }
+    .xcxcxc
+    {
+        right: 35% !important;
+        bottom: 120px !important;
+    }
+    .Fluter222 svg
+    {
+        width: 100px;
+        right: 100px;
+    }
+    .Cup-fq .left
+    {
+        width: 200px;
+    }
+    .asdasdasd .left
+    {
+        width: 200px;
+        margin-left: calc(100% - 200px);
+    }
+    .asdasdasd .left
+    {
+        width: 200px;
+    }
+    .Cup-fq .left img:nth-child(2)
+    {
+        width: 200px;
+        left: 8%;
+    }
+    .asdasdasd .left img:nth-child(2)
+    {
+        width: 200px;
+        right: 8%;
+        left: auto;
+    }
+    .Cup-fq .left .Descrip-fqq
+    {   
+        left: 65vw;
+        top: 75px;
+    }
+    .asdasdasd .left .Descrip-fqq
+    {   
+        right: 65vw;
+        left: auto;
+        top: 75px;
+    }
+    .Cup-fq .left .Descrip-fqq h2
+    {
+        font-size: 16px;
+    }
+    .Cup-fq .left .Descrip-fqq p
+    {
+        font-size: 14px;
+    }
+    .Cup-fq
+    {
+        flex-direction: column;
+    }
+    .Cup-fq .right
+    {
+        width: 100%;
+        left: 0;
+    }
+    .h2fq----fq h2
+    {
+        font-size: 20px;
+        width: max-content;
+        margin: 0 auto;
+    }
+}

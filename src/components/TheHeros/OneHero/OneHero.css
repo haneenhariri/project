@@ -1,0 +1,130 @@
+.Heros-Cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 55px;
+}
+.Heros-Cards .OneHeroCard
+{
+    position: relative;
+    width: 320px ;
+    height: 325px;
+    border-radius: 14px;
+    box-shadow: 200 -72px 56px 200 rgba(0, 0, 0, 0.25) inset;
+}
+.Heros-Cards .OneHeroCard .Heroimg
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.Heros-Cards .OneHeroCard .Hero-imfo
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 20px 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.Heros-Cards .OneHeroCard .Hero-imfo h2
+{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Heros-Cards .OneHeroCard .Hero-imfo p
+{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Top-x
+{
+    position: absolute;
+    top: 20px;
+    background-color: black;
+    color: #FFF;
+    padding: 5px 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+@media(max-width:955px)
+{
+    .Heros-Cards .OneHeroCard
+    {
+        width: 260px;
+        height: 250px;
+    }
+}
+@media(max-width:685px)
+{
+    .Heros-Cards .OneHeroCard
+    {
+        width: 200px;
+        height: 220px;
+    }
+    .Heros-Cards
+    {
+        gap: 30px;
+    }
+    .Heros-Cards .OneHeroCard .Hero-imfo
+    {
+        bottom: 10px;
+    }
+    .Heros-Cards .OneHeroCard .Hero-imfo h2
+    {
+        font-size: 11px;
+    }
+    .Heros-Cards .OneHeroCard .Hero-imfo p
+    {
+        font-size: 9px;
+    }
+}
+@media(max-width:560px)
+{
+    .Heros-Cards .OneHeroCard
+    {
+        width: 160px;
+        height: 190px;
+    }
+    .Heros-Cards
+    {
+        gap: 10px;
+    }
+}
+@media(max-width:375px)
+{
+    .Heros-Cards .OneHeroCard
+    {
+        width: 250px;
+        height: 290px;
+    }
+    .Heros-Cards
+    {
+        gap: 30px;
+    }
+    .Top-x
+    {
+        top: 10px;
+        padding: 2px 10px;
+    }
+    .Heros-Cards .OneHeroCard .Hero-imfo
+    {
+        bottom: 15px;
+    }
+}
+

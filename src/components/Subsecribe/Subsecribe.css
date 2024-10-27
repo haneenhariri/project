@@ -1,0 +1,205 @@
+.Subsecribe
+{
+    height: 506px;
+    width: 100%;
+    margin-top: 94px;
+    background-image: url(./../../assets/image/sup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.xsfq
+{
+    height: 506px;
+    width: 100%;
+    margin-top: 94px;
+    background-image: url(./../../assets/types.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Subsecribe .Content
+{
+    width: 962px;
+    margin: 0 auto;
+    border: 2px dashed transparent;
+}
+.Subsecribe .Content .title
+{
+    margin-top: 152px;
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Subsecribe .Content p
+{
+    margin-top: 52px;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Subsecribe .Content .inputArea
+{
+    margin-top: 17px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.Subsecribe .Content .inputArea input
+{
+    width: 601px;
+    height: 51px;
+    border-radius: 20px;
+    background: #FFF;
+    color: #282828;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+}
+.Subsecribe .Content .inputArea button
+{
+    width: 234px;
+    height: 51px;
+    border-radius: 20px;
+    background: #FF8500;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+.Subsecribe .Content .inputArea input::placeholder
+{
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 15px;
+}
+.Subsecribe .Content .inputArea input:focus
+{
+    border: none;
+    outline: 2px solid #FF3535;
+}
+.Dinamic
+{
+    color: #ffffffb9;
+    font-family: Light;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+@media(max-width:970px)
+{
+    .Subsecribe
+    {
+        height: 384px;
+    }
+    .Subsecribe .Content
+    {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .Subsecribe .Content .title
+    {
+        margin-top: 52px;
+        font-size: 30px;
+        word-spacing: 5px;
+    }
+    .Subsecribe .Content p
+    {
+        color: #ffffffb9;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .Subsecribe .Content .inputArea
+    {
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Subsecribe .Content .inputArea input
+    {
+        width: 70%;
+    }
+    .Subsecribe .Content .inputArea button
+    {
+        width: 70%;
+        margin-top: 20px;
+    }
+}
+@media(max-width:970px)
+{
+    .Subsecribe
+    {
+        height: 300px;
+    }
+    .Subsecribe .Content .title
+    {
+        margin-top: 32px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .Subsecribe .Content p
+    {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .Subsecribe .Content .inputArea input
+    {
+        height: 30px;
+        font-size: 11px;
+        padding: 0;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .Subsecribe .Content .inputArea button
+    {
+        height: 30px;
+        font-size: 14px;
+        margin-top: 18px;
+    }
+    .Subsecribe .Content .inputArea
+    {
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+    .Subsecribe .Content .inputArea input::placeholder
+    {
+        font-size: 12px;
+        /* padding-left: 10px; */
+        text-align: center;
+    }
+    .Dinamic
+    {
+        font-size: 10px;
+    }
+}
+@media(max-width:380px)
+{
+    .Subsecribe .Content .title
+    {
+        font-size: 13px;
+        word-spacing: 0px;
+    }
+    .Subsecribe .Content p
+    {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,67 @@
+.Eq-INTERNslider
+{
+     height: max-content;
+}
+.Eq-INTERNslider .slick-next:before
+{
+     position: absolute;
+     top: 170px;
+     right: -40px;
+}
+.Eq-INTERNslider .slick-prev:before
+{
+     position: absolute;
+     top: 170px;
+     left: -40px;
+}
+.center .project {
+     opacity: 0.7;
+
+}
+
+.center .project img {
+      width: 80%;
+     margin-top: 100px;
+}
+.center .slick-center .project {
+     transform: scale(1.3);
+     transition: all 400ms ease-in-out;
+     opacity: 1;
+   
+}
+.center .slick-center .project img {
+    width: 90%;
+}
+.slick-prev:before {
+     content: url(../../assets/Vector4.svg);
+}
+
+.slick-next:before {
+     content: url(../../assets/Vector3.svg);
+}
+
+.slick-prev:before {
+     opacity: .75;
+     color: #282828;
+     -webkit-font-smoothing: antialiased;
+     z-index: 1000;
+}
+
+.slick-next:before {
+     opacity: .75;
+     color: #282828;
+     -webkit-font-smoothing: antialiased;
+     z-index: 1000;
+}
+
+@media screen and (min-width:1366px) {
+     .slick-next:before {
+          position: relative;
+          right: 2.06rem;
+     }
+
+     .slick-prev:before {
+          position: relative;
+          left: 2.06rem;
+     }
+}

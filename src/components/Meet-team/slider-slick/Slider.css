@@ -1,0 +1,327 @@
+.MaSlider 
+{
+  position: relative;
+}
+.MaSlider .slick-track
+{
+  padding-top: 10px ;
+}
+.MaSlider .slick-slide
+{
+  height: 327px !important;
+  background-color: gray;
+  background: #F4F4F4;
+  border-radius: 14px;
+  padding: 50px 50px 0px 50px!important;
+  transform: translateX(-260px);
+  border: 10px solid white;
+  margin-top: 100px;
+}
+.MaSlider .slick-center
+{
+  height: 347px !important;
+  background-color: transparent !important;
+  margin: 0 10px;
+  margin-top: 80px;
+  box-shadow: 0px 10px 5px -3px rgb(184, 184, 184) ;
+}
+.slick-next 
+{
+  transform: translate(-40px,-140px) !important;
+  background-color: transparent !important;
+  z-index: 5 !important;
+}
+.slick-prev 
+{
+  transform: translate(40px,-140px) !important;
+  background-color: transparent !important;
+  z-index: 5 !important;
+}
+.slick-next:before 
+{
+  color: #000 !important;
+}
+.slick-prev:before 
+{
+  color: #000 !important;
+}
+/* cards content*/
+.MaSlider .slick-slide .MTrainingImg
+{
+  width: 100%;
+  height: 182px;
+  border-radius: 6px;
+  /* background: #D9D9D9; */
+  margin-bottom: 11px;
+  position: relative;
+  
+}
+.MaSlider .slick-slide .M-backGreen
+{
+  display: none;
+}
+.MaSlider .slick-slide .MTrainingImg img
+{
+  position: absolute;
+  left: 45%;
+  transform: translateX(-50%);
+  bottom: 0;
+  z-index: 5 !important;
+
+  filter: grayscale(100%);
+  height: 100%;
+}
+.MaSlider .slick-slide h2
+{
+  color: #282828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.MaSlider .slick-slide p
+{
+  color: #282828;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.MaSlider .slick-slide a
+{
+  display: none;
+}
+.MaSlider .slick-center .M-backGreen
+{
+  display: block;
+  top: -150px;
+  left: 20%;
+  width: 300px;
+  position: absolute;
+  height: 300px;
+  background-image: url(./../Training/greenPoints.png);
+  z-index: 12;
+  display: none;
+}
+.MaSlider .slick-center .MTrainingImg
+{
+  width: 100%;
+  height: 182px;
+  border-radius: 6px;
+  background: #fff;
+  margin-bottom: 11px;
+  position: relative;
+}
+.MaSlider .slick-center .MTrainingImg img
+{
+  position: absolute;
+  left: 45%;
+  transform: translateX(-50%);
+  bottom: 0;
+  z-index: 5 !important;
+  height: 290px;
+  filter: grayscale(0%);
+  height: 100%;
+}
+.MaSlider .slick-center h2
+{
+  color: #282828;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.MaSlider .slick-center p
+{
+  color: #282828;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.MaSlider .slick-center a
+{
+  display: flex !important;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+  margin-top: 5px;
+  color: #71AA27;
+  cursor: pointer;
+}
+.MaSlider .slick-center a span
+{
+  margin-right: 10px;
+}
+
+.pop-up-trenar
+{
+  position: absolute;
+  width: 80vw;
+  height: 500px;
+  background-color: #EEEEEE;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 50;
+  transition: .5s;
+  border-radius: 14px;
+}
+.pop-up-trenaroff
+{
+  position: absolute;
+  width: 80vw;
+  height: 500px;
+  background-color: #EEEEEE;
+  top: -200px;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 0;
+  z-index: -50;
+  transition: .5s;
+  border-radius: 14px;
+}
+.for-trinar
+{
+  width: 100%;
+  display: flex;
+  padding: 25px ;
+  justify-content: space-between;
+}
+.for-trinar .For-T-Photos
+{
+  width: 250px;
+  position: relative;
+  height: 100%;
+}
+.for-trinar .For-T-Photos .imgx
+{
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: -25px;
+}
+.for-trinar .For-T-Photos .imgx2
+{
+  position: absolute;
+  width: 100%;
+  height: 300px !important;
+}
+.cloooss
+{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.sosheal
+{
+  position: absolute;
+  bottom: 65px;
+  left: 25px;
+  cursor: pointer;
+  display: flex;
+  width: 250px;
+  justify-content: space-evenly;
+  padding: 0 20px;
+  display: none;
+}
+.For-T-Descrip
+{
+  width: calc(100% - 250px);
+  height: 500px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.For-T-Descrip div
+{
+  margin-bottom: 20px;
+}
+.For-T-Descrip h3
+{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  text-align: left;
+  color: #282828; 
+}
+.For-T-Descrip span
+{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.26px;
+  text-align: left;
+  color: #282828; 
+}
+.For-T-Descrip p
+{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29.26px;
+  text-align: left;
+  color: #000000; 
+}
+
+@media(max-width:725px)
+{
+  .MaSlider .slick-center .M-backGreen
+{
+  left: 2%;
+  }
+  .For-T-Photos
+  {
+    display: none;
+  }
+  .For-T-Descrip{
+    width: 100%;
+  }
+  .sosheal
+  {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media(max-width:450px)
+{
+  .MaSlider .slick-center .M-backGreen
+  {
+  left: -25px;
+  }
+  .MaCard h2
+  {
+    font-size: 14px !important;
+  }
+  .MaCard p
+  {
+    font-size: 13px !important;
+  }
+  .MaCard a
+  {
+    font-size: 12px !important;
+    margin-top: 15px !important;
+  }
+  .For-T-Descrip
+  {
+    padding: 0 5px;
+  }
+  .For-T-Descrip h3
+  {
+    font-size: 16px;
+  }
+  .For-T-Descrip span
+  {
+    font-size: 14px;
+  }
+  .For-T-Descrip p
+  {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}

@@ -1,0 +1,280 @@
+.PDF-containar
+{
+    width: 842px;
+    margin: 0 auto;
+    height: 595px;
+    padding: 30px;
+    background-color: #fff;
+}
+.box-certificate
+{
+    width: 862px;
+    box-shadow: 0px 0 8px 1px rgb(163, 163, 163);
+    margin-top: 30px;
+}
+.PDF-containar .Border
+{
+    border: 5px solid #797676;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff00;
+    padding: 24px;
+}
+.PDF-containar .Border .top
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.PDF-containar .Border .top p
+{
+    width: 195px;
+    height: 74px;
+    color: #FF8500;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 36.57px;
+    text-align: left;    
+}
+
+.PDF-containar .Border .Mid
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 189px;
+    margin-top: 35px;
+    margin-left: 1px;
+}
+.PDF-containar .Border .Mid span
+{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    color: #282828;
+}
+.PDF-containar .Border .Mid p
+{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    text-align: left;
+    color: #282828;
+}
+.PDF-containar .Border .End
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.PDF-containar .Border .End .left
+{
+    width: 218px;
+    height: 78px;
+    display: flex;
+}
+.PDF-containar .Border .End .left .qr
+{
+    width: 78px;
+    height: 78px;
+    background-color: #282828;
+}
+.PDF-containar .Border .End .left .description .xxx
+{
+    padding-bottom: 19px;
+    padding-top: 3px;
+}
+.PDF-containar .Border .End .left .description
+{
+  margin-top: -20px;
+}
+.PDF-containar .Border .End .left .description span
+{
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13.41px;
+    text-align: left;
+    display: block;
+    padding-left: 10px;
+}
+.PDF-containar .Border .End .right
+{
+    width: 116px;
+    height: 41px;
+    margin-bottom: -13px;
+}
+.PDF-containar .Border .End .right .CEOName
+{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600 !important;
+    line-height: 20.72px;
+    text-align: left;    
+    color: #282828;
+}
+.PDF-containar .Border .End .right .ceo
+{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18.29px;
+    text-align: left;
+    color: #282828;
+}
+
+.certificate1
+{
+    margin: 40px auto;
+    width: 845px;
+    transition: .2s;
+}
+.border2 .mid2
+{
+    height: 206px !important;
+}
+.border2 .End
+{
+    padding-top: 85px !important;
+}
+.PDF-containarA4
+{
+    width: 595px;
+    margin: 0 auto;
+    height: 842px;
+}
+.box-certificate.x
+{
+    width: 595px;
+    margin: 20px auto;
+}
+
+.Certifi-fq-f
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden ;
+    position: relative;
+}
+
+.For-intern-FQ .box-certificate
+{
+    position: absolute;
+    bottom: -5100px;
+    /* right: 0; */
+    background-color: #FFF !important;
+}
+
+.Main-certificate
+{
+    width: 80vw;
+    height: 90vh;
+    box-shadow: 0px 0px 10px 1.2px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.Main-certificate::before
+{
+    content: "";
+    position: absolute;
+    width: 80vw;
+    height: 8px;
+    background-color: #FF8500;
+    top: -7px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Main-certificate p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 96%;
+    margin: 0 auto;
+    height: 10vh;
+    /* border-top: 1px solid rgb(196, 196, 196); */
+    box-shadow: 0px 0px 10px 1.2px rgb(196, 196, 196);
+}
+.Main-certificate .className
+{
+    display: flex;
+    flex-direction: row;
+}
+.Main-certificate .className p:nth-child(1)
+{
+    flex-direction: row;
+    width: 300px;
+    border: none;
+    background-color: #00a65a;
+    color: #fff;
+    height: 40px;
+}
+.Main-certificate .className p:nth-child(3)
+{
+    flex-direction: row;
+    width: 300px;
+    border: none;
+    background-color: #00c0ef;
+    color: #fff;
+    height: 40px;
+}
+.Main-certificate span
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Main-certificate .Last-certificate-option p
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-around;
+    border: none;
+    box-shadow: none;
+}
+.Prevuuuu
+{
+    background-color: #00a65a;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.Get-you-certi
+{
+    background-color: #FF8500;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.nexttttttt
+{
+    background-color: #00c0ef;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.xfoterfqx h2
+{ 
+  font-weight: 600;
+}
+.xfoterfqx p
+{ 
+  font-weight: 300;
+}
+@media(max-width:450px)
+{
+  .foterfocalx
+  {
+    font-size: 12px;
+  }
+}
+@media(max-width:350px)
+{
+  .foterfocalx
+  {
+    font-size: 10px;
+  }
+}

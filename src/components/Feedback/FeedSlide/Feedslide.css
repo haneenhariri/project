@@ -1,0 +1,42 @@
+.FB-slider
+{
+  margin-top: 70px;
+  height: 400px !important;
+}
+.fdsdfdsd12edsawed
+{
+  display: none;
+  padding: 10%;
+  height: 400px !important;
+}
+.fdsdfdsd12edsawed img
+{
+  padding-top: 50px;
+  height: 350px;
+}
+.centermodeimg
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media(max-width:800px)
+{
+  .FB-slider
+  {
+    margin-top: 40px;
+    height: 400px !important;
+    display: none;
+  }
+  .fdsdfdsd12edsawed
+  {
+    display: block;
+  }
+}
+@media(max-width:550px)
+{
+  .fdsdfdsd12edsawed
+  {
+    padding: 3%;
+  }
+}

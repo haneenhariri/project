@@ -1,0 +1,772 @@
+.EJSection {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.EJSection .EJTitle {
+  width: max-content;
+  margin: 50px auto;
+  padding-top: 40PX;
+  color: #282828;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.EJSection .EJNavbar {
+  width: 100%;
+  padding: 0 89px 0 122px;
+  margin-bottom: 20px;
+}
+
+.EJSection .EJNavbar ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.EJSection .EJNavbar ul li {
+  color: #282828;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.EJSection .EJNavbar .EJactiv {
+  color: #282828;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+}
+
+.EJSection .EJNavbar .EJactiv::before {
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 2px;
+  background-color: #FF8500;
+  bottom: -5px;
+  transition: 1s;
+}
+
+.EJSection .EJSlider1 {
+  width: 600vw;
+  margin-bottom: 50px;
+  transform: translateX(0vw);
+  transition: 1s;
+  display: flex;
+}
+
+.EJSection .EJSlider2 {
+  width: 600vw;
+  margin-bottom: 50px;
+  transform: translateX(-100vw);
+  transition: 1s;
+  display: flex;
+}
+
+.EJSection .EJSlider3 {
+  width: 600vw;
+  margin-bottom: 50px;
+  transform: translateX(-200vw);
+  transition: 1s;
+  display: flex;
+}
+
+.EJSection .EJSlider4 {
+  width: 600vw;
+  margin-bottom: 50px;
+  transform: translateX(-300vw);
+  transition: 1s;
+  display: flex;
+}
+
+.EJSection .EJSlider5 {
+  width: 600vw;
+  margin-bottom: 50px;
+  transform: translateX(-400vw);
+  transition: 1s;
+  display: flex;
+}
+
+.EJSection .EJSlider6 {
+  width: 600vw;
+  margin-bottom: 50px;
+  transform: translateX(-500vw);
+  transition: 1s;
+  display: flex;
+}
+
+.EJSection .GraphicDesign {
+  width: 100vw;
+  height: 100%;
+  padding: 100px 5vw 0 90px;
+}
+
+.EJSection .Marketing {
+  width: 100vw;
+  height: 80vh;
+  padding: 100px 5vw 0 90px;
+}
+
+.EJSection .Branding {
+  width: 100vw;
+  height: 80vh;
+  padding: 100px 5vw 0 90px;
+}
+
+.EJSection .UiUx {
+  width: 100vw;
+  height: 80vh;
+  padding: 100px 5vw 0 90px;
+}
+
+.EJSection .Flutter {
+  width: 100vw;
+  height: 80vh;
+  padding: 100px 5vw 0 90px;
+}
+
+.EJSection .WebDevelopment {
+  width: 100vw;
+  height: 80vh;
+  padding: 100px 5vw 0 90px;
+}
+
+.EJSection .GR-MainCard,
+.EJSection .GR-SideCard,
+.EJSection .GR-SideCardDisAct {
+  width: 100%;
+  transition: .7s;
+  position: relative;
+}
+
+.EJSection .GR-MainCard h2,
+.EJSection .GR-SideCard h2,
+.EJSection .GR-SideCardDisAct h2 {
+  color: var(--black, #282828);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16.5px;
+}
+
+.EJSection .GR-MainCard ul li,
+.EJSection .GR-SideCard ul li,
+.EJSection .GR-SideCardDisAct ul li {
+  list-style: none;
+  position: relative;
+}
+
+.EJSection .GR-MainCard ul li::before,
+.EJSection .GR-SideCard ul li::before,
+.EJSection .GR-SideCardDisAct ul li::before {
+  content: "";
+  background-color: #282828;
+  position: absolute;
+  left: -10px;
+  top: 12px;
+  width: 3px;
+  height: 3px;
+}
+
+.EJSection .GR-MainCard .row-1,
+.EJSection .GR-SideCard .row-1,
+.EJSection .GR-SideCardDisAct .row-1 {
+  transition: .7s;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 29px;
+}
+
+.EJSection .GR-MainCard .row-2,
+.EJSection .GR-SideCard .row-2,
+.EJSection .GR-SideCardDisAct .row-2 {
+  transition: .7s;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.EJSection .GR-MainCard .Training-Topics {
+  transition: .7s;
+  width: 539px;
+  color: #282828;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.EJSection .GR-MainCard .just-img {
+  transition: .7s;
+  width: 476px;
+  height: 250px;
+  border-radius: 14px;
+  border: 5px solid var(--Accent, #FF8500);
+  position: relative;
+}
+
+.EJSection .GR-MainCard .just-img img {
+  width: 520px;
+  position: absolute;
+  top: -43px;
+  left: -59px;
+}
+
+.EJSection .GR-MainCard .Training-Oblectives {
+  transition: .7s;
+  width: 519px;
+  color: #282828;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.EJSection .GR-MainCard .Training-Outputs {
+  transition: .7s;
+  width: 549px;
+  color: #282828;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -32px;
+  position: relative;
+}
+
+.EJSection .SHow-more {
+  transition: 1s;
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
+  color: var(--primary, #FF8500);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.EJSection .SHow-more::before {
+  content: "";
+  position: absolute;
+  width: 382px;
+  height: 2px;
+  background: #282828;
+  bottom: 8px;
+  right: 140px;
+}
+
+.GraphicDesign .GR-SideCard {
+  transition: .8s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(-100vw);
+  opacity: 0;
+}
+
+.GraphicDesign .GR-SideCardDisAct {
+  transition: .8s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(0vw);
+  opacity: 1;
+}
+
+/* //////////////////////// */
+.Marketing .GR-SideCard {
+  transition: 1.2s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(-100vw);
+  opacity: 0;
+}
+
+.Marketing .GR-SideCardDisAct {
+  transition: .6s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(100vw);
+  opacity: 1;
+}
+
+/* //////////////////////// */
+.Branding .GR-SideCard {
+  transition: 1.6s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(-100vw);
+  opacity: 0;
+}
+
+.Branding .GR-SideCardDisAct {
+  transition: .8s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(200vw);
+  opacity: 1;
+}
+
+/* //////////////////////// */
+.UiUx .GR-SideCard {
+  transition: 2s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(-100vw);
+  opacity: 0;
+}
+
+.UiUx .GR-SideCardDisAct {
+  transition: 1s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(300vw);
+  opacity: 1;
+}
+
+/* //////////////////////// */
+.Flutter .GR-SideCard {
+  transition: 2.4s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(-100vw);
+  opacity: 0;
+}
+
+.Flutter .GR-SideCardDisAct {
+  transition: 1.3s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(400vw);
+  opacity: 1;
+}
+
+/* //////////////////////// */
+.WebDevelopment .GR-SideCard {
+  transition: 2.8s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(-100vw);
+  opacity: 0;
+}
+
+.WebDevelopment .GR-SideCardDisAct {
+  transition: 1.4s;
+  padding: 52px 20px 29px 60px;
+  top: 37px;
+  left: 0px;
+  position: absolute;
+  width: 95vw;
+  background: #F9F9F9;
+  box-shadow: 5px 13px 19px 0px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  transform: translateX(500vw);
+  opacity: 1;
+}
+
+.EJSection .GR-SideCard .Training-Topics,
+.EJSection .GR-SideCardDisAct .Training-Topics {
+  transition: .7s;
+  width: 519px;
+  color: #282828;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.EJSection .GR-SideCard .Training-Oblectives,
+.EJSection .GR-SideCardDisAct .Training-Oblectives {
+  transition: .7s;
+  width: 628px;
+  color: #282828;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.EJSection .GR-SideCard .Training-Outputs,
+.EJSection .GR-SideCardDisAct .Training-Outputs {
+  width: 549px;
+  transition: .7s;
+  color: #282828;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.EJSection .GR-SideCard .Training-Requirements,
+.EJSection .GR-SideCardDisAct .Training-Requirements {
+  margin-top: -32px;
+  width: 628px;
+  color: #282828;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.EJSection .GR-SideCard .Training-Requirements .sid1,
+.EJSection .GR-SideCardDisAct .Training-Requirements .sid1 {
+  width: 356px;
+}
+
+.EJSection .GR-SideCard .Training-Requirements .sid2,
+.EJSection .GR-SideCardDisAct .Training-Requirements .sid2 {
+  width: 210.485px;
+  height: 240px;
+  align-self: flex-end;
+}
+
+.EJSection .GR-SideCard .Training-Requirements .sid2 img,
+.EJSection .GR-SideCardDisAct .Training-Requirements .sid2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.EJSection .GR-SideCard .Training-Requirements .sid2 .ClossHandelClick,
+.EJSection .GR-SideCardDisAct .Training-Requirements .sid2 .ClossHandelClick {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media(max-width:1315px) {
+
+  .EJSection .GR-MainCard h2,
+  .EJSection .GR-SideCard h2,
+  .EJSection .GR-SideCardDisAct h2,
+  .EJSection .GR-SideCard .Training-Topics h2,
+  .EJSection .GR-SideCardDisAct .Training-Topics h2,
+  .EJSection .GR-SideCard .Training-Oblectives h2,
+  .EJSection .GR-SideCardDisAct .Training-Oblectives h2,
+  .EJSection .GR-SideCard .Training-Outputs h2,
+  .EJSection .GR-SideCardDisAct .Training-Outputs h2,
+  .EJSection .GR-SideCard .Training-Requirements h2,
+  .EJSection .GR-SideCardDisAct .Training-Requirements h2 {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+
+  .EJSection .GR-MainCard .Training-Topics,
+  .EJSection .GR-MainCard .Training-Oblectives,
+  .EJSection .GR-MainCard .Training-Outputs,
+  .EJSection .GR-SideCard .Training-Topics,
+  .EJSection .GR-SideCardDisAct .Training-Topics,
+  .EJSection .GR-SideCard .Training-Oblectives,
+  .EJSection .GR-SideCardDisAct .Training-Oblectives,
+  .EJSection .GR-SideCard .Training-Outputs,
+  .EJSection .GR-SideCardDisAct .Training-Outputs,
+  .EJSection .GR-SideCard .Training-Requirements,
+  .EJSection .GR-SideCardDisAct .Training-Requirements {
+    font-size: 15px;
+    line-height: 22px;
+    width: 420px;
+  }
+
+  .EJSection .GR-MainCard .just-img {
+    width: 386px;
+    height: 200px;
+  }
+
+  .EJSection .GR-MainCard .just-img img {
+    width: 420px;
+    left: -39px;
+  }
+
+  .EJSection .SHow-more {
+    font-size: 17px;
+  }
+
+  .EJSection .SHow-more::before {
+    width: 280px;
+    right: 120px;
+  }
+
+}
+
+@media(max-width:992px) {
+  .EJSection .EJNavbar {
+    padding: 0px;
+    width: 80%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 20px auto;
+    padding-bottom: 20px;
+  }
+
+  .EJSection .EJNavbar::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  .EJSection .EJNavbar::-webkit-scrollbar-track {
+    background-color: rgba(128, 128, 128, 0.26);
+  }
+
+  .EJSection .EJNavbar::-webkit-scrollbar-thumb {
+    width: 11px;
+    border-radius: 6px;
+    background: #FF8500;
+  }
+
+  .EJSection .EJNavbar ul {
+    width: 800px;
+  }
+
+  .EJSection .EJNavbar ul li {
+    font-size: 18px;
+  }
+
+  .EJSection .EJNavbar .EJactiv {
+    font-size: 18px;
+  }
+
+  .EJSection .GR-MainCard .Training-Oblectives,
+  .EJSection .GR-MainCard .just-img,
+  .EJSection .GR-SideCard .Training-Topics,
+  .EJSection .GR-SideCardDisAct .Training-Topics,
+  .EJSection .GR-SideCard .Training-Outputs,
+  .EJSection .GR-SideCardDisAct .Training-Outputs {
+    display: none;
+  }
+
+  .EJSection .GR-SideCard .Training-Requirements .sid2,
+  .EJSection .GR-SideCardDisAct .Training-Requirements .sid2 {
+    width: 180px;
+    height: 200px;
+  }
+
+  .EJSection .SHow-more {
+    bottom: -30px;
+  }
+
+  .EJSection .GR-MainCard .Training-Outputs {
+    margin-top: 0px;
+  }
+
+  .EJSection .GR-MainCard .row-2,
+  .EJSection .GR-SideCard .row-2,
+  .EJSection .GR-SideCardDisAct .row-2 {
+    justify-content: flex-end;
+  }
+
+  .EJSection .GR-SideCard .row-2,
+  .EJSection .GR-SideCardDisAct .row-2 {
+    margin-top: 70px;
+  }
+
+  .EJSection .GraphicDesign {
+    width: 100vw;
+    padding: 60px 40px 0 40px;
+  }
+
+  .EJSection .Marketing {
+    width: 100vw;
+    padding: 60px 40px 0 40px;
+  }
+
+  .EJSection .Branding {
+    width: 100vw;
+    padding: 60px 40px 0 40px;
+  }
+
+  .EJSection .UiUx {
+    width: 100vw;
+    padding: 60px 40px 0 40px;
+  }
+
+  .EJSection .Flutter {
+    width: 100vw;
+    padding: 60px 40px 0 40px;
+  }
+
+  .EJSection .WebDevelopment {
+    width: 100vw;
+    padding: 60px 40px 0 40px;
+  }
+
+  .EJSection .GR-SideCard {
+    padding: 52px 20px 29px 30px;
+    width: 100vw;
+  }
+
+  .EJSection .GR-SideCardDisAct {
+    padding: 52px 20px 29px 30px;
+    width: 100vw;
+  }
+}
+
+@media(max-width:504px) {
+  .EJSection .EJNavbar ul {
+    width: 600px;
+  }
+
+  .EJSection .EJNavbar ul li {
+    font-size: 16px;
+  }
+
+  .EJSection .EJNavbar .EJactiv {
+    font-size: 16px;
+  }
+
+  .EJSection .EJTitle {
+    font-size: 15px;
+  }
+
+  .EJSection .GR-MainCard h2,
+  .EJSection .GR-SideCard h2,
+  .EJSection .GR-SideCardDisAct h2,
+  .EJSection .GR-MainCard h2,
+  .EJSection .GR-SideCard h2,
+  .EJSection .GR-SideCardDisAct h2,
+  .EJSection .GR-SideCard .Training-Topics h2,
+  .EJSection .GR-SideCardDisAct .Training-Topics h2,
+  .EJSection .GR-SideCard .Training-Oblectives h2,
+  .EJSection .GR-SideCardDisAct .Training-Oblectives h2,
+  .EJSection .GR-SideCard .Training-Outputs h2,
+  .EJSection .GR-SideCardDisAct .Training-Outputs h2,
+  .EJSection .GR-SideCard .Training-Requirements h2,
+  .EJSection .GR-SideCardDisAct .Training-Requirements h2 {
+    font-size: 14px;
+  }
+
+  .EJSection .GR-MainCard .Training-Topics,
+  .EJSection .GR-MainCard .Training-Oblectives,
+  .EJSection .GR-MainCard .Training-Outputs,
+  .EJSection .GR-MainCard .Training-Topics,
+  .EJSection .GR-MainCard .Training-Oblectives,
+  .EJSection .GR-MainCard .Training-Outputs {
+    font-size: 12px;
+    line-height: 20px;
+    width: 420px;
+  }
+
+  .EJSection .GR-SideCard .Training-Topics,
+  .EJSection .GR-SideCardDisAct .Training-Topics,
+  .EJSection .GR-SideCard .Training-Oblectives,
+  .EJSection .GR-SideCardDisAct .Training-Oblectives,
+  .EJSection .GR-SideCard .Training-Outputs,
+  .EJSection .GR-SideCardDisAct .Training-Outputs,
+  .EJSection .GR-SideCard .Training-Requirements,
+  .EJSection .GR-SideCardDisAct .Training-Requirements {
+    font-size: 12px;
+    line-height: 20px;
+    width: 280px;
+  }
+
+  .EJSection .SHow-more {
+    right: 0px;
+    font-size: 14px;
+  }
+
+  .EJSection .SHow-more::before {
+    width: 150px;
+    right: 100px;
+  }
+
+  .EJSection .GR-SideCard {
+    padding: 52px 10px 29px 20px;
+    width: 98vw;
+  }
+
+  .EJSection .GR-SideCardDisAct {
+    padding: 52px 9px 29px 15px;
+    width: 98vw;
+  }
+
+  .EJSection .GR-SideCard .Training-Requirements .sid2,
+  .EJSection .GR-SideCardDisAct .Training-Requirements .sid2 {
+    width: 80px;
+    height: 100px;
+  }
+}

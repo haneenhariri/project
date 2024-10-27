@@ -1,0 +1,23 @@
+.XAMeetTeam
+{
+  width: 100%;
+  height: 550px;
+  margin-bottom: 40px;
+  margin-top: 125px;
+  overflow: hidden;
+}
+.XAMeetTeam .MaTitle
+{
+  width: max-content;
+  margin: 30px auto;
+  color: #282828;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.XAMeetTeam .MASlider
+{
+  width: 100%;
+  height: 100%;
+}

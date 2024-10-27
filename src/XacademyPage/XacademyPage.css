@@ -1,0 +1,22 @@
+/* main
+{
+    filter: blur(10px);
+} */
+::-webkit-scrollbar
+{
+    width: 15px;
+}
+::-webkit-scrollbar-track
+{
+    background-color: rgba(128, 128, 128, 0.26);
+}
+::-webkit-scrollbar-thumb
+{
+    width: 11px;
+    border-radius: 6px;
+    background: #FF8500;
+}
+.ullll li:nth-child(6)
+{
+    margin-right: 54px !important;
+}

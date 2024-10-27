@@ -1,0 +1,346 @@
+.bgBlack {
+    background-color: #282828;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    /* z-index: -1; */
+}
+
+.typeHost {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+.valueHOST {
+    font-size: 16px;
+
+}
+
+.HostingCard {
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    grid-template-columns: repeat(4, 22.18%);
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+    margin-top: 2%;
+
+}
+
+.img1H {
+    position: absolute;
+    left: 0;
+    top: 15%;
+    z-index: 0;
+}
+
+.img3H {
+    position: absolute;
+    left: 30%;
+    top: 12%;
+    z-index: 0;
+}
+
+.img4H {
+    position: absolute;
+    top: 13%;
+    left: 52%;
+    z-index: 0;
+}
+
+.img5H {
+    position: absolute;
+    top: 14%;
+    right: 20%;
+}
+
+.img6H {
+    position: absolute;
+    right: 12%;
+    top: 9%;
+}
+
+.img8h {
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+.img9h {
+    position: absolute;
+    top: 50%;
+    right: 45%;
+}
+
+.img10H {
+    position: absolute;
+    right: 6%;
+    bottom: 9%;
+}
+
+.img11H {
+    position: absolute;
+    left: 0;
+    bottom: 12%;
+}
+
+.img20H {
+    position: absolute;
+    top: -11% !important;
+    right: 15% !important;
+}
+
+.img23H {
+    position: absolute;
+    top: -50px;
+    right: 8%;
+}
+
+.img2H {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    z-index: 120;
+}
+
+.hostCard {
+    z-index: 100;
+    height: max-content;
+    display: flex;
+    padding: 0.8rem;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+
+}
+
+.titleH {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #282828;
+
+}
+
+.priceInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+.discountH {
+    width: 40%;
+
+}
+
+.hostBtn {
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0.6rem 0;
+}
+
+.hostFooter {
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 95%;
+}
+.footerHosting {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.1px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-wrap: wrap;
+    position: relative;
+    /* width: 95%; */
+    margin: 10px 0;
+
+}
+
+.footerHf {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: center;
+    margin: 15px 0;
+}
+@media screen and (max-width:1175px) {
+    .HostingCard {
+        display: grid;
+        grid-template-columns: repeat(2, 44.18%);
+        gap: 50px;
+        justify-content: center;
+    }
+    .hostFooter{
+        color: #FFFFFF;
+        text-align: center;
+        max-width: 80%;
+    }
+    .footerHosting
+    {
+        font-size: 16px;
+    }
+    .footerHf
+    {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .HostingCard {
+        display: grid;
+        grid-template-columns: repeat(1, 75.18%);
+        gap: 50px;
+        justify-content: center;
+
+    }
+
+    /* .hostFooter{
+         margin-bottom: 8%;
+    } */
+    .priceInfo {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .discountH {
+        width: 90%;
+    }
+    .hostFooter{
+        color: #FFFFFF;
+        text-align: center;
+        
+    }
+    .footerHosting
+    {
+        font-size: 16px;
+        max-width: 270px;
+    }
+    .footerHf
+    {
+        font-size: 18px;
+        max-width: 270px;
+    }
+    .footerHf a
+    {
+        display: none;
+    }
+
+}
+
+.hostHeadline {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 1.5rem;
+    /* margin-bottom: 3%; */
+    position: relative;
+}
+
+.img20H {
+    position: absolute;
+    top: 50%;
+}
+
+.conHost {
+    margin: 10px 25px !important;
+}
+
+.hostCard .Description-fq0 p:first-child,
+.hostCard .Description-fq1 p:first-child,
+.hostCard .Description-fq2 p:first-child,
+.hostCard .Description-fq3 p:first-child {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 19.5px !important;
+    margin: 0.6rem 0 !important;
+    width: 95% !important;
+    height: 40px !important;
+}
+.hostCard .Description-fq2
+{
+    padding-bottom: 10px;
+}
+.hostCard .Description-fq0 p:first-child {
+    padding-top: 10px !important;
+    padding-bottom: 45px !important;
+}
+
+.hostCard .Description-fq0 p:nth-child(3),
+.hostCard .Description-fq1 p:nth-child(3),
+.hostCard .Description-fq2 p:nth-child(3),
+.hostCard .Description-fq3 p:nth-child(3) {
+    position: absolute !important;
+    top: 100px !important;
+    right: 40px !important;
+    width: 40% !important;
+}
+
+.hostCard .Description-fq2 p:nth-child(3) {
+    color: #71AA27;
+    display: none;
+}
+
+.hostCard .Description-fq3 p:nth-child(3) {
+    color: #1D5EDD;
+    display: none;
+}
+
+.hostCard .Description-fq0 h1,
+.hostCard .Description-fq0 h2,
+.hostCard .Description-fq1 h1,
+.hostCard .Description-fq1 h2,
+.hostCard .Description-fq2 h1,
+.hostCard .Description-fq2 h2,
+.hostCard .Description-fq3 h1,
+.hostCard .Description-fq3 h2 {
+    font-family: 'Gothic A1', sans-serif !important;
+    font-size: 25px !important;
+    font-weight: 900 !important;
+    line-height: 31.25px !important;
+    margin-bottom: 15px !important;
+}
+
+.hostCard .Description-fq0 ul,
+.hostCard .Description-fq1 ul,
+.hostCard .Description-fq2 ul,
+.hostCard .Description-fq3 ul {
+    margin: 0.6rem 0 !important;
+}
+
+.hostCard .Description-fq0 ul li,
+.hostCard .Description-fq1 ul li,
+.hostCard .Description-fq2 ul li,
+.hostCard .Description-fq3 ul li {
+    font-family: Montserrat !important;
+    font-size: 16px !important;
+    /* font-weight: 700  !important; */
+    line-height: 19.5px !important;
+    text-align: left !important;
+    color: #282828 !important;
+    margin-top: 5px !important;
+
+}
+
+@media (max-width:410px) {
+    .HostingCard {
+        display: grid;
+        grid-template-columns: repeat(1, 85.18%);
+        gap: 50px;
+        justify-content: center;
+
+    }
+}

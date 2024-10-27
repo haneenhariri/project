@@ -1,0 +1,1816 @@
+.Creativity-Sec
+{
+    width: 100%;
+    overflow: hidden;
+}
+.Creativity-Sec .CR-title 
+{
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.Creativity-Sec .CR-title h2
+{
+    color: #282828;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Creativity-Sec .CR-title p
+{
+    width: 602px;
+    color: rgba(0, 0, 0, 0.51);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 16px;
+}
+.Creativity-Sec .CR-Branshes-sec ul
+{
+    width: 80%;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    margin: 61px auto 30px auto;
+}
+.Creativity-Sec .CR-Branshes-sec ul li
+{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    cursor: pointer;
+}
+.Creativity-Sec .CR-Branshes-sec ul .CRActiv
+{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+}
+.Creativity-Sec .CR-Branshes-sec ul .CRActiv::before
+{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 33px;
+    height: 2px;
+    background: #FF8500;
+}
+.Creativity-Sec .CR-slidesSec1
+{
+    width: 400vw;
+    display: flex;
+    transform: translateX(-00VW);
+    transition: .7s;
+}
+.Creativity-Sec .CR-slidesSec2
+{
+    width: 400vw;
+    display: flex;
+    transform: translateX(-100VW);
+    transition: .7s;
+}
+.Creativity-Sec .CR-slidesSec3
+{
+    width: 400vw;
+    display: flex;
+    transform: translateX(-200VW);
+    transition: .7s;
+}
+.Creativity-Sec .CR-slidesSec4
+{
+    width: 400vw;
+    display: flex;
+    transform: translateX(-300VW);
+    transition: .7s;
+}
+.Creativity-Sec .CR-bransh-branding
+{
+    width: 100vw;
+    height: 792px;
+    transition: .7s;
+    position: relative;
+}
+.Creativity-Sec .CR-bransh-Ui
+{
+    width: 100vw;
+    height: 792px;
+    transition: .7s;
+}
+.Creativity-Sec .CR-bransh-Front
+{
+    width: 100vw;
+    height: 792px;
+    transition: .7s;
+}
+.Creativity-Sec .CR-bransh-Flutter
+{
+    width: 100vw;
+    height: 792px;
+    transition: .7s;
+}.CR-bransh-branding .CR-contant
+{
+    width: 100%;
+    position: relative;
+}
+.CR-bransh-branding .cr-umberback 
+{
+    width: 490px;
+    height: 630px;
+    position: absolute;
+    top: 100px;
+    background-image: url(./Img/Br/left-back.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.CR-bransh-branding .cr-umberback .cr-title
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 102%;
+    width: 190px;
+}
+.CR-bransh-branding .cr-umberback .cr-title p
+{
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.CR-bransh-branding .cr-umberback .cr-title span
+{
+    display: block;
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.CR-bransh-branding .cr-umberback .cr-umberfront
+{
+    width: 426.762px;
+    height: 488.026px;
+    background-image: url(./Img/Br/X/cup.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -100px;
+    left: 100px;
+    transform: rotate(10deg);
+    transition: .7s;
+    animation: updown 2s infinite linear;
+}
+.CR-bransh-branding .CR-contant .otherone
+{
+    width: 635px;
+    height: 707px;
+    background-image: url(./Img/Br/Photos.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 00px;
+}
+.CR-bransh-branding .CR-Behance button
+{
+    width: 216px;
+    padding: 10px 20px;
+    color: #434445;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 14px;
+    border: 2px solid #434445;
+    background-color: #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 170px;
+}
+.CR-bransh-Ui .cr-contant
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.CR-bransh-Ui .cr-contant .CR-Left-bo
+{
+    position: absolute;
+    width: 807px;
+    height: 641px;
+    background-image: url(./../../assets/uiMobile.svg);
+    background-size: contain;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: 0;
+}
+.CR-bransh-Ui .cr-contant .CR-Left-bo .title
+{
+    position: absolute;
+    top: -35px;
+    right: 110px;
+}
+.CR-bransh-Ui .cr-contant .CR-Left-bo .title p
+{
+    display: inline-block;
+    color: #282828;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 5px;
+}
+.CR-bransh-Ui .cr-contant .CR-Left-bo .title span
+{
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.CR-bransh-Ui .cr-contant .CR-right-bo
+{
+    position: absolute;
+    width: 340px;
+    height: 320px;
+    background-image: url(./../../assets/uimobile3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 100px;
+    top: 150px;
+}
+.CR-bransh-Ui .cr-contant .CR-right-bo .cr-inside
+{
+    position: absolute;
+    width: 120px;
+    height: 248px;
+    background-image: url(./Img/UI/rightm.png);
+    background-repeat: no-repeat;
+    left: -40px;
+    bottom: -8px;
+    transition: .7s;
+    transform: rotateY(0deg);
+    display: none;
+}
+.CR-bransh-Ui .cr-contant .CR-right-bo .cr-inside:hover
+{
+    transition: .7s;
+    transform: rotateY(90deg);
+}
+.CR-bransh-Ui .cr-contant .CR-right-bo .cr-insideTitle
+{
+    position: absolute;
+    width: max-content;
+    color: rgba(40, 40, 40, 0.15);
+    font-size: 87px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -150px;
+}
+.CR-bransh-Ui .CR-Behance button
+{
+    width: 216px;
+    padding: 10px 20px;
+    color: #434445;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 14px;
+    border: 2px solid #434445;
+    background-color: #fff;
+    position: absolute;
+    bottom: -250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.CR-bransh-Front .cr-contant
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.CR-bransh-Front .cr-contant .cr-left
+{
+    width: 760px;
+    height: 478.249px;
+    background-image: url(./../../assets/screencapture-faisalqashmrfs-github-io-Golobe-X-Front-2024-07-21-11_46_291.webp);
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    bottom: 70px;
+}
+.CR-bransh-Front .cr-contant .cr-left .first-title
+{
+    position: absolute;
+    left: 84px;
+    top: -220px;
+    color: rgba(40, 40, 40, 0.15);
+    font-size: 87px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.CR-bransh-Front .cr-contant .cr-left .sec-title 
+{
+    position: absolute;
+    left: 84px;
+    top: -96px;
+}
+.CR-bransh-Front .cr-contant .cr-left .sec-title p
+{
+    color: #282828;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.CR-bransh-Front .cr-contant .cr-left .sec-title span
+{
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.CR-bransh-Front .CR-Behance button
+{
+    width: 216px;
+    padding: 10px 20px;
+    color: #434445;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 14px;
+    border: 2px solid #434445;
+    background-color: #fff;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.CR-bransh-Front .cr-contant .cr-rightTop
+{
+    width: 647.099px;
+    height: 500.748px;
+    background-image: url(./../../assets/screencapture-fadi1872-github-io-AI-blog-front-end-2024-07-21-11_49_041.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+.CR-bransh-Front .cr-contant .cr-rightBottomn
+{
+    width: 625.54px;
+    height: 260px;
+    background-image: url(./Img/Front/right-Bot.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.CR-bransh-Flutter .cr-contant
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.CR-bransh-Flutter .cr-contant .phone-left
+{
+    width: 250.5px;
+    height: 512px;
+    background-image: url(./../../assets/iPhone-15-Pro-Black-Titanium-Mockup-Portrait.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 146px;
+    bottom: 170px;
+}
+
+.CR-bransh-Flutter .cr-contant .cr-sameStyle p
+{
+    color: #282828;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.CR-bransh-Flutter .cr-contant .cr-sameStyle span
+{
+    color: #282828;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+}
+.CR-bransh-Flutter .cr-contant .descrip1
+{
+    position: absolute;
+    width: max-content;
+    left: 354px;
+    top: 48px;
+}
+.CR-bransh-Flutter .cr-contant .descrip1::before
+{
+    content: "";
+    position: absolute;
+    width: 80.004px;
+    height: 2px;
+    background-color: #000;
+    top: 50%;
+    left: -110px;
+    transition: 1s;
+}
+.CR-bransh-Flutter .cr-contant .phone-left .colom-title p
+{
+    color: rgba(40, 40, 40, 0.15);
+    font-size: 87px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(270deg);
+    position: absolute;
+    bottom: 192px;
+    right: 147px;
+}
+.CR-bransh-Flutter .CR-Behance button
+{
+    width: 216px;
+    padding: 10px 20px;
+    color: #434445;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 14px;
+    border: 2px solid #434445;
+    background-color: #fff;
+    position: absolute;
+    bottom: -76px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.CR-bransh-Flutter .cr-contant .phone-right
+{
+    width: 638.8px;
+    height: 663.75px;
+    background-image: url(./../../assets/main2.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    right: 0px;
+    bottom: 0px;
+}
+.CR-bransh-Flutter .cr-contant .descrip2
+{
+    position: absolute;
+    width: max-content;
+    left: -221px;
+    bottom: 147px;
+}
+.CR-bransh-Flutter .cr-contant .descrip2::before
+{
+    content: "";
+    width: 170px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 13px;
+    right: -180px;
+}
+.CR-bransh-Flutter .cr-contant .descrip2::after
+{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    top: 3px;
+    right: -185px;
+}
+
+/* mobile */
+.CR-bransh-branding .CR-Mobile-brans-branding
+{
+    display: none;
+    width: 100vw;
+    height: 450px;
+    position: relative;
+}
+.CR-bransh-branding .CR-Mobile-brans-branding .CR-MO-content1
+{
+    width: 300vw;
+    transform: translate(0vw);
+    transition: .7s;
+    display: flex;
+    overflow: hidden;
+}
+.CR-bransh-branding .CR-Mobile-brans-branding .CR-MO-content2
+{
+    width: 300vw;
+    transform: translate(-100vw);
+    transition: .7s;
+    display: flex;
+}
+.CR-bransh-branding .CR-Mobile-brans-branding .CR-MO-content3
+{
+    width: 300vw;
+    transform: translate(-200vw);
+    transition: .7s;
+    display: flex;
+}
+.CR-Mobile-brans-branding .CR-MO-Section1,
+.CR-Mobile-brans-branding .CR-MO-Section2,
+.CR-Mobile-brans-branding .CR-MO-Section3
+{
+    width: 100vw;
+    transition: .7s;
+    position: relative;
+    height: 500px;
+}
+.CR-btns
+{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CR-btns .Actin-fq-cr
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF8500;
+}
+.CR-btns .disActin-fq-cr
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+.next-cr{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #D9D9D9BF;
+}
+.CR-bransh-branding .CR-Mobile-brans-branding .CR-btns
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-left
+{
+    width: 239px;
+    height: 314px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(./img-mbile/branding/land.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-left .cr-projevt-name
+{
+    position: absolute;
+    left: 100%;
+    top: 30px;
+    width: max-content;
+}
+.CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-left .cr-projevt-name p
+{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-left .cr-projevt-name span
+{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+}
+.CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-left .title-section
+{
+    color: rgba(40, 40, 40, 0.15);
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 120px;
+    left: -130px;
+    transform: rotate(270deg);
+}
+.CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-red
+{
+    width: 123px;
+    height: 398px;
+    background-image: url(./img-mbile/branding/reffeca1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -2px;
+    top: 0px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-red .CR-Behance1 button
+{
+    position: absolute;
+    width: 151px;
+    height: 35px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: 1px solid #434445;
+    color: #434445;
+    background-color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    left: -180px;
+    bottom: 0px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section2 
+{
+    overflow: hidden;
+}
+.CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left 
+{
+    width: 339px;
+    height: 398px;
+    background-image: url(./img-mbile/branding/reffeca2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .cr-projevt-name
+{
+    position: absolute;
+    left: 90%;
+    top: 30px;
+    width: max-content;
+}
+.CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .cr-projevt-name p
+{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .cr-projevt-name span
+{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+}
+.CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .title-rog
+{
+    width: 200.366px;
+    height: 182.909px;
+    background-image: url(./img-mbile/branding/rog.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 50px;
+    left: 80%;
+    transition: 1s;
+    transform: rotate(0deg);
+    animation: updown 2s infinite linear;
+}
+.CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .title-rog:hover
+{
+    animation: updown 0s infinite linear;
+}
+@keyframes updown
+{
+    0%{
+        transform: translateY(0px);
+    }
+    50%
+    {
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .CR-Behance1 button
+{
+    position: absolute;
+    width: 151px;
+    height: 35px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: 1px solid #434445;
+    color: #434445;
+    background-color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    left: 110%;
+    bottom: 0px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-red
+{
+    width: 88px;
+    height: 424px;
+    background-image: url(./img-mbile/branding/umder-left.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -2px;
+    top: 0px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-red .cr-clossedRog
+{
+    width: 186.784px;
+    height: 257.446px;
+    background-image: url(./img-mbile/branding/clossed-rog.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -25px;
+    left: -105px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-photo-left 
+{
+    width: 232px;
+    height: 414px;
+    background-image: url(./img-mbile/branding/umber-right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 30px;
+    left: -5px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-photo-left .title-umber
+{
+    width: 256.466px;
+    height: 296.429px;
+    background-image: url(./img-mbile/branding/cup.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    animation: updown 2s infinite ease;
+
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-photo-left .cr-projevt-name
+{
+    position: absolute;
+    left: 280px;
+    top: 40px;
+    width: max-content;
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-photo-left .cr-projevt-name p
+{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-photo-left .cr-projevt-name span
+{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-title-right
+{
+    color: rgba(40, 40, 40, 0.15);
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transform: rotate(270deg);
+    position: absolute;
+    right: -100px;
+    top: 180px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .CR-Behance1 button
+{
+    position: absolute;
+    width: 151px;
+    height: 35px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: 1px solid #434445;
+    color: #434445;
+    background-color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    right: 150px;
+    bottom: 120px;
+}
+/* ui */
+.CR-Mobile-UI .CR-Mobile-brans-UI
+{
+    display: none;
+    width: 100vw;
+    height: 500px;
+
+    position: relative;
+}
+.CR-bransh-Ui .CR-Mobile-brans-UI .CR-MO-content1
+{
+    width: 300vw;
+    transform: translate(0vw);
+    transition: .7s;
+    display: flex;
+    overflow: hidden;
+}
+.CR-bransh-Ui .CR-Mobile-brans-UI .CR-MO-content2
+{
+    width: 300vw;
+    transform: translate(-100vw);
+    transition: .7s;
+    display: flex;
+}
+.CR-bransh-Ui .CR-Mobile-brans-UI .CR-MO-content3
+{
+    width: 300vw;
+    transform: translate(-200vw);
+    transition: .7s;
+    display: flex;
+}
+.CR-Mobile-brans-UI .CR-MO-Section1,
+.CR-Mobile-brans-UI .CR-MO-Section2,
+.CR-Mobile-brans-UI .CR-MO-Section3
+{
+    width: 100vw;
+    transition: .7s;
+    position: relative;
+    height: 500px;
+}
+.CR-btns
+{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CR-btns .Actin-fq-cr
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF8500;
+}
+.CR-btns .disActin-fq-cr
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+.CR-bransh-Ui .CR-Mobile-brans-UI .CR-btns
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* front */
+.CR-Mobile-front .CR-Mobile-brans-front
+{
+    display: none;
+    width: 100vw;
+    height: 500px;
+
+    position: relative;
+}
+.CR-bransh-Front .CR-Mobile-brans-front .CR-MO-content1
+{
+    width: 300vw;
+    transform: translate(0vw);
+    transition: .7s;
+    display: flex;
+    overflow: hidden;
+}
+.CR-bransh-Front .CR-Mobile-brans-front .CR-MO-content2
+{
+    width: 300vw;
+    transform: translate(-100vw);
+    transition: .7s;
+    display: flex;
+}
+.CR-bransh-Front .CR-Mobile-brans-front .CR-MO-content3
+{
+    width: 300vw;
+    transform: translate(-200vw);
+    transition: .7s;
+    display: flex;
+}
+.CR-Mobile-brans-front .CR-MO-Section1,
+.CR-Mobile-brans-front .CR-MO-Section2,
+.CR-Mobile-brans-front .CR-MO-Section3
+{
+    width: 100vw;
+    transition: .7s;
+    position: relative;
+    height: 500px;
+}
+.CR-btns
+{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CR-btns .Actin-fq-cr
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF8500;
+}
+.CR-btns .disActin-fq-cr
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+.CR-bransh-Front .CR-Mobile-brans-front .CR-btns
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+/* flutter */
+.CR-Mobile-fluteer .CR-Mobile-brans-fluteer
+{
+    display: none;
+    width: 100vw;
+    height: 500px;
+
+    position: relative;
+}
+.CR-bransh-Flutter .CR-Mobile-brans-fluteer .CR-MO-content1
+{
+    width: 300vw;
+    transform: translate(0vw);
+    transition: .7s;
+    display: flex;
+    overflow: hidden;
+}
+.CR-bransh-Flutter .CR-Mobile-brans-fluteer .CR-MO-content2
+{
+    width: 300vw;
+    transform: translate(-100vw);
+    transition: .7s;
+    display: flex;
+}
+.CR-bransh-Flutter .CR-Mobile-brans-fluteer .CR-MO-content3
+{
+    width: 300vw;
+    transform: translate(-200vw);
+    transition: .7s;
+    display: flex;
+}
+.CR-Mobile-brans-fluteer .CR-MO-Section1,
+.CR-Mobile-brans-fluteer .CR-MO-Section2,
+.CR-Mobile-brans-fluteer .CR-MO-Section3
+{
+    width: 100vw;
+    transition: .7s;
+    position: relative;
+    height: 500px;
+}
+.CR-btns
+{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CR-btns .Actin-fq-cr
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF8500;
+}
+.CR-btns .disActin-fq-cr
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+.CR-bransh-Flutter .CR-Mobile-brans-fluteer .CR-btns
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.ui-box
+{
+    width: 100%;
+}
+.ui-box .top-ui-box
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.ui-box .top-ui-box div span
+{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14.63px;
+    text-align: left;
+
+}
+.ui-box .top-ui-box p
+{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: left;
+}
+.ui-box .top-ui-box a
+{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 18px 8px 18px;
+    height: max-content;
+    cursor: pointer;
+}
+.ui-box .bottom-ui-box
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.ui-box .bottom-ui-box img
+{
+    width: 60%;
+}
+.ui-box .bottom-ui-box .img2
+{
+    width: 100%;
+    margin-top: -100px;
+}
+.ui-box-s3-b > p
+{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 48.76px;
+    text-align: left;
+    color: #28282826;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+.ui-box-s3
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px ;
+}
+.ui-box-s3 img
+{
+    width: 50%;
+}
+.ui-box-s3 div{
+    margin-top: 40px;
+}
+.ui-box-s3 div span:nth-child(1)
+{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14.63px;
+    text-align: left; 
+}
+.ui-box-s3 div p
+{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.63px;
+    text-align: left; 
+    margin-bottom: 20px;
+}
+.ui-box-s3  a
+{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 18px 8px 18px;
+    height: max-content;
+    cursor: pointer;
+}
+
+.fuuuterll img
+{
+    width: 50%;
+    padding-left: 10%;
+}
+.fuuuterll2 img
+{
+    width: 40%;
+    padding-left: 10%;
+}
+.fuuuterll div
+{
+    padding-right: 10%;
+}
+.fuuuterll2 div
+{
+    padding-right: 10%;
+}
+.fluterrrr-3section img
+{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    width: 56%;
+}
+.EndedFlutter
+{
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    /* transform: translateX(-100%); */
+}
+.EndedFlutter span
+{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14.63px;
+    text-align: left;
+}
+.ui-box .top-ui-box div
+{
+    margin-left: 100px ;
+}
+.EndedFlutter p
+{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.63px;
+    text-align: left;
+}
+.fluterrrr-3section a
+{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 18px 8px 18px;
+    height: max-content;
+    cursor: pointer;
+    position: absolute;
+    bottom: 110px;
+    left: 35%;
+    /* transfom: translateX(-100%); */
+}
+.fluterrrr-3section .nameoffluuter
+{
+    font-family: 'Montserrat';
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 56.07px;
+    color: #28282826;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: -100px;
+}
+.FrontAddToBox 
+{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.FrontAddToBox span
+{
+    font-size: 20px !important;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.FrontAddToBox p
+{
+    font-size: 16px !important;
+    line-height: 20px !important; 
+}
+.LastUpdatewithImg
+{
+    width: 40% !important;
+}
+@media(max-width:1283px)
+{
+    
+    .Creativity-Sec .CR-bransh-branding , .Creativity-Sec .CR-bransh-Ui , .Creativity-Sec .CR-bransh-Front , .Creativity-Sec .CR-bransh-Flutter{
+        height: 622px;
+        overflow: hidden;
+    }
+    .CR-bransh-branding .cr-umberback 
+    {
+        width: 320px;
+        height: 430px;
+        background-size: contain;
+    }
+    .CR-bransh-branding .cr-umberback .cr-umberfront
+    {
+        width: 326.762px;
+        height: 318.026px;
+        background-size: contain;
+        top: -20px;
+    }
+    .CR-bransh-branding .cr-umberback .cr-title span {
+        font-size: 17px;
+    }
+    .CR-bransh-branding .cr-umberback .cr-title p {
+        font-size: 17px;
+    }
+    .CR-bransh-branding .CR-contant .otherone {
+        width: 400px;
+        height: 457px;
+        background-size: contain;
+        top: 60px;
+    }
+    .CR-bransh-branding .CR-Behance button {
+        width: 196px;
+        padding: 8px 20px;
+        font-size: 16px;
+        bottom: 20px;
+        right: 75px;
+    }
+    .CR-bransh-Ui .cr-contant .CR-Left-bo {
+        width: 537px;
+        height: 451px;
+        background-size: contain;
+    }
+    .CR-bransh-Ui .cr-contant .CR-Left-bo .title p {
+        font-size: 24px;
+    }
+    .CR-bransh-Ui .cr-contant .CR-Left-bo .title span {
+        font-size: 16px;
+    }
+    .CR-bransh-Ui .cr-contant .CR-Left-bo .title {
+        width: max-content;
+        top: -30px;
+        left: 100px;
+    }
+    .CR-bransh-Ui .cr-contant .CR-right-bo {
+        width: 350px;
+        height: 280px;
+        background-size: contain;
+        top: 180px;
+        right: 15px;
+    }
+    .CR-bransh-Ui .cr-contant .CR-right-bo .cr-inside {
+        background-size: contain;
+        width: 90px;
+        height: 228px;
+        left: -20px;
+    }
+    .CR-bransh-Ui .cr-contant .CR-right-bo .cr-insideTitle {
+        font-size: 55px;
+        bottom: -50px;
+    }
+    .CR-bransh-Ui .CR-Behance button {
+        width: 196px;
+        padding: 8px 20px;
+        font-size: 16px;
+        bottom: -120px;
+        left: 50%;
+    }
+    .CR-bransh-Front .cr-contant .cr-left {
+        width: 550px;
+        height: 380.249px;
+        background-size: contain;
+        left: -30px;
+        bottom: 40px;
+    }
+    .CR-bransh-Front .cr-contant .cr-left .sec-title {
+        left: 54px;
+        top: -56px;
+    }
+    .CR-bransh-Front .cr-contant .cr-left .first-title {
+        left: 54px;
+        top: -180px;
+        font-size: 87px;
+    }
+    .CR-bransh-Front .CR-Behance button {
+        width: 196px;
+        padding: 8px 20px;
+        font-size: 16px;
+        bottom: -10px;
+        left: 50%;
+    }
+    .CR-bransh-Front .cr-contant .cr-rightTop {
+        width: 407.099px;
+        height: 375.748px;
+        background-size: contain;
+    }
+    .CR-bransh-Front .cr-contant .cr-rightBottomn {
+        width: 447.54px;
+        height: 186px;
+        background-size: contain;
+        right: -40px;
+        bottom: 0px;
+    }
+    .CR-bransh-Flutter .cr-contant .phone-left {
+        width: 200.5px;
+        height: 412px;
+        background-size: contain;
+        left: 106px;
+        bottom: 120px;
+    }
+    .CR-bransh-Flutter .CR-Behance button {
+        width: 196px;
+        padding: 8px 20px;
+        font-size: 16px;
+        bottom: -76px;
+        left: 50%;
+    }
+    .CR-bransh-Flutter .cr-contant .phone-left .colom-title p {
+        font-size: 65px;
+        bottom: 162px;
+        right: 107px;
+    }
+    .CR-bransh-Flutter .cr-contant .descrip1 {
+        position: absolute;
+        width: max-content;
+        left: 264px;
+        top: 38px;
+    }
+    .CR-bransh-Flutter .cr-contant .descrip1::before {
+        width: 50.004px;
+        height: 2px;
+        left: -70px;
+    }
+    .CR-bransh-Flutter .cr-contant .phone-right {
+        width: 400.8px;
+        height: 417.75px;
+        background-size: contain;
+    }
+    .CR-bransh-Flutter .cr-contant .cr-sameStyle p {
+        font-size: 18px;
+    }
+    .CR-bransh-Flutter .cr-contant .cr-sameStyle span {
+        font-size: 18px;
+    }
+    .CR-bransh-Flutter .cr-contant .descrip2 {
+        left: -151px;
+        bottom: 77px;
+    }
+    .CR-bransh-Flutter .cr-contant .descrip2::before {
+        width: 100px;
+        top: 11px;
+        right: -100px;
+    }
+    .CR-bransh-Flutter .cr-contant .descrip2::after {
+        width: 15px;
+        height: 15px;
+        top: 3px;
+        right: -105px;
+    }
+    .LastUpdatewithImg
+    {
+        width: 30% !important;
+    }
+}
+@media(max-width:870px)
+{
+    .LastUpdatewithImg
+    {
+        width: 30% !important;
+    }
+    .CR-bransh-branding , .CR-bransh-Ui , .CR-bransh-Front , .CR-bransh-Flutter
+    {
+        height: 500px !important;
+    }
+    .cr-contant , .CR-contant, .CR-Behance
+    {
+        display: none;
+    }
+    .CR-bransh-branding .CR-Mobile-brans-branding , .CR-Mobile-UI .CR-Mobile-brans-UI , .CR-Mobile-front .CR-Mobile-brans-front , .CR-Mobile-fluteer .CR-Mobile-brans-fluteer
+    {
+        display: block;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left 
+    {
+        width: 209px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .cr-projevt-name
+    {
+        left: 100%;
+        top: 30px;
+    }
+    .Creativity-Sec .CR-title h2 {
+        font-size: 24px;
+    }
+    .Creativity-Sec .CR-title p {
+        width: 402px;
+        font-size: 16px;
+    }
+    .Creativity-Sec .CR-Branshes-sec ul li {
+        font-size: 15px;
+    }
+    .Creativity-Sec .CR-Branshes-sec ul .CRActiv {
+        font-size: 17px;
+    }
+    .Creativity-Sec .CR-Branshes-sec ul {
+        width: 90%;
+    }
+}
+@media(max-width:620px){
+    .ui-box .bottom-ui-box img
+    {
+        width: 80%;
+    }
+    .ui-box-s3 img
+    {
+        width: 65%;
+    }   
+    .ui-box-s3
+    {
+        padding: 0 20px ;
+    }
+    .EndedFlutter
+    {
+        left: 25%;
+        top: 200px;
+    }
+    .fluterrrr-3section a
+    {
+        bottom: 110px;
+        left: 25%;
+    }
+    .fluterrrr-3section .nameoffluuter
+    {
+        font-size: 56px;
+        left: -95px;
+    }
+    .FrontAddToBox 
+    {
+        padding-top: 10%;
+    }
+    .FrontAddToBox span
+    {
+        font-size: 16px !important;
+    }
+    .FrontAddToBox p
+    {
+        font-size: 14px !important;
+        line-height: 18px !important; 
+    }
+    .asdasdasd123
+    {
+        padding-top: 100px;
+    }
+    .asdasdasd123 img
+    {
+        width: 55% ;
+        position: absolute;
+        left: -10px;
+        margin-top: -20px;
+    }
+    .asdasdasd123 .FrontAddToBox
+    {
+        position: absolute;
+        right: 0;
+    }
+    .LastUpdatewithImg
+    {
+        width: 230px !important;
+    }
+}
+
+@media(max-width:499px)
+{
+    .ui-box 
+    {
+        margin-top: 40px;
+    }
+    .ui-box .bottom-ui-box img
+    {
+        width: 90%;
+    }
+    .ui-box .bottom-ui-box .img2
+    {
+        width: 90%;
+        margin-top: -50px;
+    }
+    .ui-box .top-ui-box div
+    {
+        margin-left: 10px ;
+    }
+    .ui-box .top-ui-box div span
+    {
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14.63px;
+        text-align: left;
+        margin-left: 0;
+
+    }
+    .ui-box .top-ui-box p
+    {
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.63px;
+        text-align: left;
+    }
+    .ui-box-s3 div span:nth-child(1)
+    {
+        font-family: 'Montserrat';
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 14.63px;
+        text-align: left; 
+    }
+    .ui-box-s3 div p
+    {
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.63px;
+        text-align: left; 
+    }
+    .ui-box-s3  a
+    {
+        display: none;
+    }
+    .EndedFlutter
+    {
+        left: 40%;
+        top: 50px;
+    }
+    .fluterrrr-3section img
+    {
+        width: 75%;
+    }
+    .fluterrrr-3section a
+    {
+        bottom: 80px;
+        left: 15px;
+        font-weight: 400;
+        padding: 6px 8px;
+    }
+    .fluterrrr-3section .nameoffluuter
+    {
+        font-size: 46px;
+        left: -75px;
+    }
+    .LastUpdatewithImg
+    {
+        width: 200px !important;
+    }
+    .Creativity-Sec .CR-title h2 {
+        font-size: 22px;
+    }
+    .Creativity-Sec .CR-title p {
+        width: 352px;
+        font-size: 15px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-left
+    {
+        width: 160px;
+        height: 194px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-left .cr-projevt-name
+    {
+        left: 84%;
+        top: -20px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-left .cr-projevt-name p
+    {
+        font-size: 12px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-left .cr-projevt-name span
+    {
+        font-size: 11px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-left .title-section
+    {
+        top: 60px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-red
+    {
+        width: 93px;
+        height: 290px;
+        top: 60px;
+        right: -10px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section1 .cr-photo-red .CR-Behance1 button
+    {
+        width: 101px;
+        height: 30px;
+        padding: 8px 5px;
+        font-size: 10px;
+        left: -105px;
+        bottom: 0px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left 
+    {
+        width: 217px;
+        height: 328px;
+        top: 60px;
+        transform: translateX(-100px);
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .cr-projevt-name
+    {
+        left: 100%;
+        z-index: 10;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .cr-projevt-name p
+    {
+        font-size: 12px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .cr-projevt-name span
+    {
+        font-size: 12px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .title-rog
+    {
+        width: 120.366px;
+        height: 152.909px;
+        left: 60%;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-left .CR-Behance1 button
+    {
+        width: 101px;
+        height: 30px;
+        padding: 8px 5px;
+        font-size: 10px;
+        left: 100%;
+        bottom: 40px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-red
+    {
+        width: 58px;
+        height: 300px;
+        top: 60px;
+    }
+    .CR-Mobile-brans-branding .CR-MO-Section2 .cr-photo-red .cr-clossedRog
+    {
+        width: 106.784px;
+        height: 157.446px;
+        top: -15px;
+        left: -55px;
+    }
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-photo-left 
+{
+    width: 152px;
+    height: 234px;
+    top: 90px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-photo-left .title-umber
+{
+    width: 146.466px;
+    height: 166.429px;
+
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-photo-left .cr-projevt-name
+{
+    left: 160px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-photo-left .cr-projevt-name p
+{
+    font-size: 12px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-photo-left .cr-projevt-name span
+{
+    font-size: 12px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .cr-title-right
+{
+    font-size: 50px;
+    right: -115px;
+    top: 200px;
+}
+.CR-Mobile-brans-branding .CR-MO-Section3 .CR-Behance1 button
+{
+    width: 101px;
+    height: 30px;
+    padding: 8px 5px;
+    font-size: 10px;
+    right: 100px;
+    bottom: 140px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:360px)
+{
+    .Creativity-Sec .CR-title h2 {
+        font-size: 20px;
+    }
+    .Creativity-Sec .CR-title p {
+        width: 302px;
+        font-size: 14px;
+    }
+    .Creativity-Sec .CR-Branshes-sec ul li {
+        font-size: 13px;
+    }
+    .Creativity-Sec .CR-Branshes-sec ul .CRActiv {
+        font-size: 15px;
+    }
+    .Creativity-Sec .CR-Branshes-sec ul {
+        width: 90%;
+    }
+
+}

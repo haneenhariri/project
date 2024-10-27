@@ -1,0 +1,358 @@
+.card {
+  position: relative;
+  margin-bottom: 6%;
+  display: flex;
+  text-wrap: wrap;
+  width: 610px;
+  border-radius: var(radius);
+}
+
+.img {
+  position: absolute;
+  top: -15%;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+}
+
+.innerCard {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: none;
+  background-color: var(--color-white);
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 16px 40px 0 rgba(112, 144, 176, 0.2);
+  ;
+  text-align: start;
+}
+
+.Xicon {
+  position: absolute;
+  bottom: 5%;
+  width: 39%;
+  height: 48%;
+}
+
+.leftX {
+
+  right: 0;
+
+}
+
+.rightX {
+  right: 0;
+
+}
+
+.ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 1rem 0.5rem;
+}
+
+.ul li.Alist {
+  line-height: 18.67px;
+  color: #525252;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Montserrat';
+}
+
+.sub,
+.phrase {
+  max-width: 60%;
+  padding: 1rem 0;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: 'Gothic A1', sans-serif;
+  line-height: 18.67px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.Service {
+  padding: 2% 4%;
+  text-wrap: wrap;
+
+}
+
+.XImg {
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+  width: 97px;
+}
+
+.titleCard {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  Line-height: 29.26px;
+  padding: 1rem 0rem 0rem 0rem;
+  position: relative;
+  width: max-content;
+
+}
+
+.titleCard::after {
+  content: "";
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 110%;
+  height: 3px;
+  background-color: var(--lineColor);
+
+
+}
+
+.description {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 98%;
+  padding: 1rem 0rem;
+  line-height: 18.67px;
+}
+
+.sub {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 98%;
+  color: var(--color-black);
+  padding: 1rem 0rem;
+  line-height: 18.67px;
+}
+
+.Description-fq0 {
+  padding-top: 8.5px;
+
+}
+
+.Description-fq0 p:nth-child(1) {
+  height: 22px !important;
+  padding-bottom: 10px !important;
+}
+
+.Description-fq0 h2 {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  margin: 10.5px 0 10px 0;
+}
+
+.Description-fq0 p:nth-child(2) {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+}
+
+.Description-fq0 ul li {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  color: #525252 !important;
+
+}
+
+.Description-fq1 {
+  padding-top: 18.5px;
+}
+
+.Description-fq1 p {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  margin-bottom: 17.5px;
+}
+
+.Description-fq1 ul li {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  color: #525252 !important;
+}
+
+.Description-fq1 h2 {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  margin: 17.5px 0 10px 0;
+}
+
+.Description-fq2 {
+  padding-top: 18.5px;
+}
+
+.Description-fq2 p:nth-child(1) {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  margin-bottom: 17.5px;
+}
+
+.Description-fq2 p:nth-child(2) {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  margin: 17.5px 0 17.5px 0 !important;
+}
+
+.Description-fq2 ul li {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  color: #525252 !important;
+}
+
+.Description-fq2 p {
+  margin-bottom: 20px;
+}
+
+.Description-fq2 h2 {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  margin: 17.5px 0 10px 0;
+}
+
+.Description-fq3 {
+  padding-top: 20px;
+}
+
+.Description-fq3 ul li {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  color: #525252 !important;
+}
+
+.Description-fq3 p:nth-child(1) {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  margin-bottom: 17.5px;
+}
+
+.Description-fq3 p:nth-child(2) {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  margin-top: 50px;
+  margin-bottom: 17.5px;
+}
+
+.Description-fq3 p:nth-child(4) {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 17.67px !important;
+  text-align: left !important;
+  margin-top: 20px;
+}
+
+.Description-fq3 h2 {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  margin: 17.5px 0 10px 0;
+}
+
+@media (max-width:1260px) {
+  .card {
+    margin: 0 auto;
+    width: 610px;
+    margin-top: 8%;
+  }
+
+  .XImg {
+    position: absolute;
+    right: 6%;
+    bottom: 5%;
+    width: 97px;
+  }
+}
+
+@media (max-width:800px) {
+  .card {
+    margin-bottom: 14%;
+  }
+}
+
+@media (max-width:630px) {
+  .card {
+    margin-bottom: 14%;
+    width: 100%;
+  }
+
+  .Alist {
+    max-width: 70%;
+  }
+
+  .Ximg {
+    display: none;
+  }
+
+  .titleCard {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:440px) {
+  .card {
+    margin-bottom: 16%;
+    width: 100%;
+  }
+
+  .Alist {
+    max-width: 70%;
+  }
+
+  .XImg {
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    width: 57px;
+    display: none;
+  }
+
+  .img {
+    width: 300px;
+    height: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    top: -40px;
+  }
+}

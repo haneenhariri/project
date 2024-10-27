@@ -1,0 +1,247 @@
+.FQ-Hero-
+{
+    height: calc( 100vh - 52px);
+    position: relative;
+    top: 52px;
+    z-index: 1;
+    margin-bottom: 100px !important;
+}
+
+/* left part */
+
+.of-left-hero 
+{
+    width: 675px;
+    z-index: -10 !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+}
+.of-left-hero h1 {
+    color: #FF8500;
+    font-family: var(--my-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: normal;
+    margin-bottom: 10px;
+    transition: .5s;
+    z-index: -1 !important;
+    /* line-height: 0px; */
+}
+
+.of-left-hero p {
+    width: 634px;
+    color: #282828;
+    font-family: var(--my-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    transition: .5s;
+    margin-bottom: 120px;
+}
+
+/* right part */
+.Mario-station
+{
+    width: 240px;
+    height: 600px;
+    background-image: url(./../../assets/image/branding-pattren.png);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    z-index: -1;
+}
+.LinkToPlay
+{
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+    bottom: 290px;
+    right: 430px;
+    z-index: 10;
+}
+.controler
+{
+    width: 530px;
+    height: 558px;
+    background-image: url(./../../assets/image/Mario-Station.png);
+    position: absolute;
+    bottom: 75px;
+    right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+/* under part */
+.of-header-social-media.relative
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.of-header-social-media .of-img1 {
+    width: 100%;
+}
+
+.of-header-social-media .of-header-social-media-p {
+    color: #FF8500;
+    font-family: var(--my-font-family);
+    font-size: 1.67919rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 83.2%;
+}
+
+.of-p-discourd {
+    position: absolute;
+    left: 50%;
+    top: 69.71%;
+    transform: translate(-50%, -50%);
+}
+
+.of-p-discourd p {
+    color: var(--color-white);
+    font-family: var(--my-font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 83.2%;
+    /* 0.832rem */
+}
+
+.of-copyrightfocalx .of-copyright {
+    color: var(--color-white);
+    font-family:var(--my-font-family);
+    
+    font-style: normal;
+    font-weight: 500;
+    line-height: 83.2%;
+    /* 13.312px */
+}
+.s1{
+    display: none;
+}
+/* font size */
+@media (max-width: 1180px)
+{
+    .of-left-hero 
+    {
+        width: 540px;
+        z-index: -1;
+        position: absolute;
+        top: 40%;
+        left: 40px;
+    }
+    .of-left-hero h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .of-left-hero p {
+        width: 514px;
+        font-size: 16px;
+        line-height: 33px;
+    }
+    .controler
+    {
+        width: 400px;
+        height: 450px;
+        bottom: 50px;
+    }
+    .LinkToPlay
+    {
+        width: 90px;
+        bottom: 250px;
+        right: 325px;
+    }
+}
+
+@media (max-width: 740px)
+{
+    .of-left-hero 
+    {
+        width: 450px;
+        position: static;
+        padding-top: 250px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .of-left-hero h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .of-left-hero p {
+        width: 440px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .controler
+    {
+        width: 280px;
+        height: 300px;
+        bottom: 70px;
+        right: 58%;
+        transform: translateX(50%);
+    }
+    .Mario-station
+    {
+        display: none;
+    }
+    .LinkToPlay
+    {
+        width: 130px;
+        height: 30px;
+        bottom: 195px;
+        right: 0px;
+        left: 13%;
+    }
+    .s1{
+        display: block;
+    }
+    .s2{
+        display: none;
+    }
+}
+
+@media (max-width: 470px)
+{
+    .of-left-hero 
+    {
+        width: max-content;
+        margin: 8px auto;
+    }
+    .of-left-hero h1 {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .of-left-hero p {
+        width: 310px;
+        font-size: 12px;
+        line-height: 25px;
+        margin: 0 auto;
+    }
+    .controler
+    {
+        width: 220px;
+        height: 250px;
+        bottom: 70px;
+        right: 60%;
+        transform: translateX(50%);
+    }
+    .Mario-station
+    {
+        display: none;
+    }
+    .LinkToPlay
+    {
+        width: 80px;
+        height: 20px;
+        bottom: 185px;
+        right: 0px;
+        left: 7%;
+    }
+}
