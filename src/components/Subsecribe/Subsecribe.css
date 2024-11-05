@@ -2,30 +2,32 @@
 {
     height: 506px;
     width: 100%;
-    margin-top: 94px;
+    margin-top: 54px;
     background-image: url(./../../assets/image/sup.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .xsfq
 {
     height: 506px;
     width: 100%;
-    margin-top: 94px;
+    margin-top: 54px;
     background-image: url(./../../assets/types.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .Subsecribe .Content
 {
-    width: 962px;
+    width: 866px;
     margin: 0 auto;
     border: 2px dashed transparent;
 }
 .Subsecribe .Content .title
 {
-    margin-top: 152px;
     color: #FFF;
     font-size: 45px;
     font-style: normal;

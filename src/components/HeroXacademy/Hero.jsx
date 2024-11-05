@@ -32,7 +32,7 @@ export const HeroXacademy = () => {
           <p className='alpraragraph2'>In focal X agency We believe that <br /> every human need second chance, <br /> Every trainee is our partner, <br /> and hand in hand we are here to build <br /> something different and special.</p>
           <div className='HeroLogin'>
             <Link target='_blank' to={"https://xacademy-recording-platform.focal-x.com/"}><button>Login</button></Link>
-            <a href={trainingFile} download="X academy 2024 V.7 Syria.pdf">Download training file</a>
+            <a className='training-file' href={trainingFile} download="X academy 2024 V.7 Syria.pdf">Download training file</a>
           </div>
         </div>
         <div className='Hero-numberAnimat'>

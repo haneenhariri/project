@@ -29,7 +29,7 @@ const ContactUS = () => {
         <section className='Subsecribe xsfq'>
         <div className='Content'>
             <h2 className='title' style={{}}>
-                Wherever you are <span style={{color:"transparent"}}>sx</span>,<span style={{color:"transparent"}}>x</span> focal X reach you
+                Wherever you are , focal X reach you
             </h2>
             <p>Subscribe to the newsletter to stay in latest news</p>
             <div className='inputArea'>

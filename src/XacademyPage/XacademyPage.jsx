@@ -1,5 +1,5 @@
 import "./XacademyPage.css";
-import React from 'react';
+import React, { useEffect } from 'react';
 import MeetTeam from "./../components/Meet-team/MeetTeam.jsx";
 import EmpowerJourney from "../components/EmpowerJourney/EmpowerJourney";
 import Certificate from "../components/Certificate/Certificate.jsx";
@@ -7,7 +7,6 @@ import Creativity from "../components/Creativity/Creativity.jsx";
 import TheHeros from "../components/TheHeros/TheHeros.jsx";
 import Feedback from "../components/Feedback/Feedback.jsx";
 import Subsecribe from "../components/Subsecribe/Subsecribe.jsx";
-import Footer from "./../components/Xa-Footer/Footer.jsx";
 import facebook from '../assets/facebooks.svg'
 import behance from '../assets/behance.svg'
 import instagram from '../assets/instragram.svg'
@@ -15,14 +14,24 @@ import linkedin from '../assets/linked.svg'
 import twitter from '../assets/x.svg'
 import { useState } from 'react';
 import { HeroXacademy } from "../components/HeroXacademy/Hero.jsx";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Link as Linnk } from 'react-router-dom';
 import ContactUS from "../components/ContactUs/ContactUs.jsx";
 
 export const AcademyPage = () => {
 
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    const HandelSecroll = () => {
+      window.scrollTo(0, 0);
+    }
+    HandelSecroll()
+  }, [pathname]);
+
   const [sidclass, setsidclass] = useState("side-Nav")
   const [choslink2, setchoslink2] = useState(false)
+
 
   function chosLink(id) {
     setchoslink(id)
@@ -78,7 +87,7 @@ export const AcademyPage = () => {
             <li className={choslink === 2 ? 'Activlink' : ''}><Link to={'/'} onClick={() => chosLink(2)}>Services</Link> </li>
             <li className={choslink === 3 ? 'Activlink' : ''}><Link to={'/'} onClick={() => chosLink(3)}>Portfolio</Link> </li>
             <li className={choslink === 4 ? 'Activlink' : ''}><Link to={'/'} onClick={() => chosLink(4)}>Clients & Partners</Link> </li>
-            <li className={choslink === 5 ? 'Activlink' : ''}><Link to={'/AcademyPage'} onClick={() => chosLink(5)}>X Academy</Link> </li>
+            <li className={choslink === 5 ? 'Activlink' : ''}><Link to={'/AcademyPage'} onClick={() => (chosLink(5) , HandelSecroll())}>X Academy</Link> </li>
             <li className={choslink === 6 ? 'Activlink' : ''}><Link to={'/'} onClick={() => chosLink(6)}>
             About Us
             <span className={choslink2 ? 'awro-fq-navbar' : 'awro-fq-navbar2'}></span>
@@ -204,8 +213,7 @@ export const AcademyPage = () => {
                         <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[11rem]">
                         <Link style={{color:'#fff',fontWeight:'400'}} to="sectionP" spy={true} smooth={true} offset={-70} duration={1000} onClick={() => chosLink(4)}>Clients & Partners</Link><br />
                             <Linnk style={{color:'#fff',fontWeight:'400'}} to={'/AcademyPage'} onClick={() => chosLink(5)}>Check Certificat ID</Linnk>
-                            Check for employee
-                            Our Brand ID guidlines</p>
+                            <br />Check ID guidlines</p>
                     </div>
 
                     <div className="xl:pt-[5.38rem]">

@@ -346,7 +346,7 @@ export default function Creativity() {
                                 <p>FLUTTER</p>
                             </div>
                             <div className='descrip1 cr-sameStyle'>
-                                <p>Project Name</p>
+                                <p>Podcast App</p>
                                 <span>Logo Design</span>
                                 <span>Packaging</span>
                                 <span>Identity Design</span>
@@ -358,7 +358,7 @@ export default function Creativity() {
                         </div>
                         <div className='phone-right'>
                             <div className='descrip2 cr-sameStyle'>
-                                <p>Project Name</p>
+                                <p>X Community</p>
                                 <span>Logo Design</span>
                                 <span>Packaging</span>
                                 <span>Identity Design</span>

@@ -36,6 +36,7 @@ import Line from './../../assets/Line7.png'
 import img_50 from './../../assets/Group234444427.webp'
 import img_51 from './../../assets/reffasdxxxxxxx1.webp'
 import img_52 from './../../assets/Ellipse55555555555.png'
+import company from './company.pdf'
 
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -44,14 +45,14 @@ import { Link } from "react-router-dom";
 import { Element } from "react-scroll";
 const Portfolio = () => {
 
-  const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/DOC-20221219-WA0000._';
-    link.download = 'profile company';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-};
+//   const handleDownload = () => {
+//     const link = document.createElement('a');
+//     link.href = '';
+//     link.download = 'profile company';
+//     document.body.appendChild(link);
+//     link.click();
+//     document.body.removeChild(link);
+// };
 
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -158,10 +159,12 @@ const Portfolio = () => {
       </section>
       {/* section four */}
       <div className='pt-[2.86rem] w-[90%] mx-auto text-center '>
-        <p className='text-my-black font-my-font text-xl not-italic font-medium leading-normal'>Check more Branding project on our Behance portfolio from <span className='font-bold underline'>HERE</span></p>
+        <p className='text-my-black font-my-font text-xl not-italic font-medium leading-normal'>Check more Branding project on our Behance portfolio from <span className='font-bold underline'><Link target='_blank' to={'https://www.behance.net/focal-x-agency'}>HERE</Link></span></p>
         <p className='text-my-black font-my-font text-xl not-italic font-medium leading-normal'>OR you can download Our Profile Company to Know more about Our Services</p>
         <div className='text-center'>
-          <button onClick={handleDownload} style={{ border: '0.923px solid #FF8500' }} className='text-my-orange font-my-font text-[0.84575rem] not-italic font-medium leading-normal rounded-[0.346rem] pt-[0.62rem] pl-[0.62rem] pr-[0.56rem] pb-[0.34rem] sm:mr-[0.875rem] mr-[0.3rem] mt-[0.94rem]'>AR profile company</button>
+          <button style={{ border: '0.923px solid #FF8500' }} className='text-my-orange font-my-font text-[0.84575rem] not-italic font-medium leading-normal rounded-[0.346rem] pt-[0.62rem] pl-[0.62rem] pr-[0.56rem] pb-[0.34rem] sm:mr-[0.875rem] mr-[0.3rem] mt-[0.94rem]'>
+          <a href={company} download="AR profile company">AR profile company</a>
+          </button>
           <button style={{ border: '0.923px solid #FF8500' }} className='text-my-orange font-my-font text-[0.84575rem] not-italic font-medium leading-normal rounded-[0.346rem] pt-[0.62rem] pl-[0.62rem] pr-[0.56rem] pb-[0.34rem] sm:ml-[0.875rem] ml-[0.3rem]'>EN profile company</button>
         </div>
       </div>

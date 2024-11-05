@@ -251,8 +251,7 @@ const LandingPage = () => {
                         <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[11rem]">
                         <Link style={{color:'#fff',fontWeight:'400'}} to="sectionP" spy={true} smooth={true} offset={-70} duration={1000} onClick={() => chosLink(4)}>Clients & Partners</Link><br />
                             <Linnk style={{color:'#fff',fontWeight:'400'}} to={'/AcademyPage'} onClick={() => chosLink(5)}>Check Certificat ID</Linnk>
-                            Check for employee
-                            Our Brand ID guidlines</p>
+                            <br />Check ID guidlines</p>
                     </div>
 
                     <div className="xl:pt-[5.38rem]">
