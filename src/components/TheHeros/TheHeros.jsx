@@ -15,6 +15,13 @@ export default function TheHeros() {
             try {
                 const response = await axios.get('https://internships.focal-x.com/api/versions');
                 setData(response.data.data);
+
+                if (response.data.data.length > 0) {
+                  const firstBatch = response.data.data[0];
+                  setActivHero(1);
+                  setVersion(firstBatch.name);
+              }
+
             } catch (error) {
                 console.error('Error fetching data: ', error);
             }
@@ -44,7 +51,7 @@ export default function TheHeros() {
         };
 
         fetchData();
-    }, [version]); // استخدم version كمسبب لتحديث البيانات
+    }, [version,data]); // استخدم version كمسبب لتحديث البيانات
 
     function VHeroActivait(IDHero, index) {
         setActivHero(IDHero);

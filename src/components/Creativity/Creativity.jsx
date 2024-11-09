@@ -10,6 +10,8 @@ import fluter from './../../assets/Welcome2Screen2.webp'
 import fluter2 from './../../assets/iPhone-15-Pro-Black-Titanium-Mockup-Portrait.webp'
 import fluter3 from './../../assets/main2.webp'
 import { Link } from 'react-router-dom';
+import umberfront from './../../assets/cup-min.png';
+
 
 export default function Creativity() {
 
@@ -74,7 +76,9 @@ export default function Creativity() {
                 <div className='CR-bransh-branding'>
                     <div className='CR-contant'>
                         <div className='cr-umberback'>
-                            <div className='cr-umberfront'></div>
+                            <div className='cr-umberfront'>
+                              <img src={umberfront} alt="" />
+                            </div>
                             <div className='cr-title'>
                                 <p>Umber </p>
                                 <span>Logo Design</span>

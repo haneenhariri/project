@@ -9,7 +9,7 @@ import ContactUs from '../components/ContactUs/ContactUs'
 import Footer from '../components/Footer/Footer'
 import { useEffect, useState } from "react"
 import axios from "axios"
-import { Link as Linnk } from 'react-router-dom';
+import { Link as Linnk, useLocation } from 'react-router-dom';
 import { Link, Element } from 'react-scroll';
 import facebook from '../assets/facebooks.svg'
 import behance from '../assets/behance.svg'
@@ -18,6 +18,15 @@ import linkedin from '../assets/linked.svg'
 import twitter from '../assets/x.svg'
 
 const LandingPage = () => {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    const HandelSecroll = () => {
+      window.scrollTo(0, 0);
+    }
+    HandelSecroll()
+  }, [pathname]);
 
   const [data, setData] = useState([]);
 

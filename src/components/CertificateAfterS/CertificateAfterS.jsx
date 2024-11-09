@@ -89,7 +89,7 @@ export default function CertificateAfterS() {
                             <div className='left'>
                               <div className='qr'>
                                 <QRCode
-                                  value="https://www.example.com"
+                                  value="https://focal-x.com/AcademyPage/#Certificate"
                                   size={78}
                                   bgColor={"#ffffff"}
                                   fgColor={"#000000"}
@@ -179,7 +179,7 @@ export default function CertificateAfterS() {
                             <div className='left'>
                               <div className='qr'>
                                 <QRCode
-                                  value="https://www.example.com"
+                                  value="https://focal-x.com/AcademyPage/#Certificate"
                                   size={78}
                                   bgColor={"#ffffff"}
                                   fgColor={"#000000"}

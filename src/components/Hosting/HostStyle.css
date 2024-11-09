@@ -334,7 +334,23 @@
     margin-top: 5px !important;
 
 }
-
+.Description-fq2 p:nth-child(2) {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  margin: 0 !important;
+}
+.Description-fq3 p:nth-child(2) {
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 18.67px !important;
+  text-align: left !important;
+  margin-top: 0px;
+  margin-bottom: 17.5px;
+}
 @media (max-width:410px) {
     .HostingCard {
         display: grid;
