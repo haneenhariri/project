@@ -233,12 +233,11 @@ const LandingPage = () => {
                     <div className="xl:pt-[3.81rem]">
                         <div className="mb-[1.06rem]">
                             <h2 className="text-white font-my-secound-font text-xl not-italic font-medium leading-normal">Sales</h2>
-                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[10rem]">contact@focal-x.com
-                                +963 953 666 056</p>
+                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[10rem]">contact@focal-x.com <br />+963 953 666 056</p>
                         </div>
                         <div>
                             <h2 className="text-white font-my-secound-font text-xl not-italic font-medium leading-normal">Public Relations</h2>
-                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[10rem]">pr@focal-x.com
+                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[10rem]">pr@focal-x.com <br />
                                 +963 953 666 052</p>
                         </div>
                     </div>
@@ -246,7 +245,7 @@ const LandingPage = () => {
                     <div className="xl:pt-[3.81rem] ">
                         <div className="mb-[1.06rem]">
                             <h2 className="text-white font-my-secound-font text-xl not-italic font-medium leading-normal">Customer Support</h2>
-                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[10rem]">info@focal-x.com
+                            <p className="text-white font-my-secound-font text-[1.0625rem] not-italic leading-normal font-light w-[10rem]">info@focal-x.com <br />
                                 +963 953 666 054</p>
                         </div>
                         <div>
